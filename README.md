@@ -1,6 +1,6 @@
-# vue
+# maciej.co
 
-> A Vue.js project
+> Made with [Vue.js](http://vuejs.github.io)
 
 ## Build Setup
 
