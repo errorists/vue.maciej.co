@@ -23,13 +23,13 @@
     </div>
     <div class="credits">
       <div class="row">
-        <p><em>About<br />—</em>Maciej is a multidisciplinary product designer helping startups and brands in designing and building digital products, services, and experiences.
+        <p><em>About<br />—</em>Maciej is a <span class="tooltip t01">multidisciplinary</span> <span class="tooltip t02">product designer</span> helping startups and brands in <span class="tooltip t03">designing</span> and <span class="tooltip t04">building</span> digital products, services, and experiences.
         </p>
         <p><em>Get in touch<br />—</em><a href="mailto:hi@maciej.co" title="Maciej&#39;s mailbox"><span class="highlighter">hi@maciej.co</span></a>
         </p>
       </div>
       <div class="row">
-        <p><em>Currently<br />—</em>Available for contract design work.<br />Creating Mosaic, an app for pixel art makers, and this other thing for musicians, soon to be announced.</p>
+        <p><em>Currently<br />—</em>Available for <span class="tooltip t05">contract design work</span>.<br />Making Mosaic, an app for pixel art makers, and this other thing for musicians, soon to be announced.</p>
         <p><em>Previously<br />—</em><a href="https://www.opera.com" target="_blank"><span class="highlighter">Opera</span></a><br />
           <a href="https://explaineverything.com" target="_blank"><span class="highlighter">Explain Everything</span></a><br />
           <a href="https://www.good.com" target="_blank"><span class="highlighter">Good</span></a>
@@ -88,6 +88,61 @@ em {
 .row:last-child p a {
 	margin-right: 1rem;
 }
+.tooltip {
+  display: inline-block;
+  position: relative;
+  cursor: help;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute; top: 90%;
+    background-color: hsla(240,20%,80%, 0.5);
+    height: 2px;
+    width: 100%;
+  }
+  &::after {
+    display: inline-block;
+    position: absolute;
+    left: 50%; bottom: 0;
+    max-width: 320px;
+    opacity: 0;
+    background: linear-gradient(340deg, hsla(0,0%,100%, .99) 0%, hsla(260,20%,97%, .8) 100%);
+    padding: 16px;
+    border-radius: 2px;
+    font: 14px/1.25 $body;
+    color: $text-second;
+    text-align: center;
+    pointer-events: none;
+    transform: translate(-50%, -24px);
+    transition: all 0.2s ease;
+    will-change: transform, opacity;
+  }
+  &.t01::after {
+    width: 180px;
+    content: 'I embrace being a generalist.';
+  }
+  &.t02::after {
+    width: 230px;
+    content: '…buzzword du jour. What it means is, I take ownership of the entire end to end design process.';
+  }
+  &.t03::after {
+    width: 240px;
+    content: 'Art Direction, Branding, Visual Design, UI/UX, Interaction, Animation, Prototyping, User Research';
+  }
+  &.t04::after {
+    width: 150px;
+    content: 'HTML/CSS/JS, React, Vue, Framer';
+  }
+  &.t05::after {
+    width: 190px;
+    content: 'Freelance. 3+ month projects.';
+  }
+  &:hover::after {
+    opacity: 1;
+    transform: translate(-50%, -30px);
+  }
+}
 
 @media (max-width: 960px) {
   footer {
@@ -109,6 +164,9 @@ em {
 	.row {
 		flex-direction: column;
 	}
+  .tooltip::before {
+    display: none;
+  }
 }
 @media (max-width: 560px) {
 	footer {
