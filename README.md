@@ -1,5 +1,7 @@
 # maciej.co
 
+Source files of my personal website [maciej.co](https://www.maciej.co).
+
 > Made with [Vue.js](http://vuejs.github.io)
 
 ## Build Setup
