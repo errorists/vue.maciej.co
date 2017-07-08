@@ -1,0 +1,26 @@
+// DARK STYLES
+
+.dark .button .highlighter {
+	color: $dark-link;
+}
+.dark .highlighter::after {
+	background-color: $dark-link;
+}
+.dark h3 {
+	color: white;
+}
+.dark p {
+	color: $dark-second;
+}
+.dark ul li h4 {
+	color: hsl(180,5%,45%);
+}
+.dark .button svg {
+	stroke: $dark-link;
+}
+.dark p a, .dark article a {
+	border-bottom: 2px solid $dark-link;
+}
+.dark p a:hover, .dark p a:focus, .dark article a:hover, .dark article a:focus {
+	color: $dark-link;
+}

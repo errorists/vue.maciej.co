@@ -1,0 +1,87 @@
+// @MEDIA
+
+@media (max-width: 1024px) {
+	.flickity-prev-next-button {
+		display: none!important;
+	}
+}
+@media (max-width: 960px) {
+	.content {
+		width: 100%;
+		padding: 5vh 10vw 8vh 10vw;
+		flex-direction: column;
+	}
+	.content h3 {
+		margin-bottom: 4vh;
+	}
+	.content p {
+		width: 100%;
+		margin: 0;
+	}
+	.gallery {
+		margin-left: 0;
+
+		&::before {
+			width: 100vw;
+			margin-left: 0;
+		}
+	}
+}
+@media (max-width: 680px) {
+	.tablet {
+		width: 512px; height: 384px;
+	}
+	.portrait {
+		width: 384px; height: 512px;
+	}
+	.phone {
+		width: 300px; height: 534px;
+	}
+}
+@media (max-width: 560px) {
+	.tablet {
+		width: 480px; height: 360px;
+	}
+	.portrait {
+		width: 360px; height: 480px;
+	}
+	.phone {
+		width: 281px; height: 500px;
+	}
+}
+@media (max-width: 500px) {
+	.content {
+		padding: 5vh 5vw;
+	}
+	.tablet {
+		width: 416px; height: 312px;
+	}
+	.portrait {
+		width: 312px; height: 416px;
+	}
+	.phone {
+		width: 240px; height: 427px;
+	}
+}
+@media (max-width: 420px) {
+	.tablet {
+		width: 320px; height: 240px;
+	}
+	.portrait {
+		width: 240px; height: 320px;
+	}
+	.phone {
+		width: 188px; height: 334px;
+	}
+}
+@media (max-width: 320px) {
+	.tablet {
+		width: 288px; height: 216px;
+	}
+	.portrait {
+		width: 216px; height: 288px;
+	}
+	.phone {
+		width: 167px; height: 300px;
+	}
+}

@@ -1,0 +1,68 @@
+// TYPE
+
+@font-face {
+  font-family: 'Replica-Regular';
+  src: url('assets/RepRegular.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Replica-Mono';
+  src: url('assets/RepMo.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Replica-Bold';
+  src: url('assets/RepBold.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+
+h3 {
+	font: 2.5rem/.9 $header;
+	font-weight: normal;
+	color: $text-prime;
+	margin-bottom: 1rem;
+	letter-spacing: -1.5px;
+	text-rendering: optimizeLegibility;
+}
+h4 {
+	font: 1rem/1 $mono;
+	font-weight: normal;
+	color: $text-second;
+}
+h5 {
+	font: 1.125rem/1 $body;
+	font-weight: normal;
+	color: $text-third;
+}
+p, article {
+	font: 1.125rem/1.4 $body;
+	font-weight: normal;
+	color: $text-second;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+article {
+	font-size: 1.5rem;
+	line-height: 1.45;
+	color: $text-prime;
+	max-width: 720px;
+	margin: 0 10vw 10vw 30vw;
+}
+li {
+	font: 1rem/1 $body;
+	font-weight: normal;
+}
+a {
+	color: $link;
+	text-decoration: none;
+}
+p a, article a {
+	color: inherit;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+}
