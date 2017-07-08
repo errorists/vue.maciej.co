@@ -73,6 +73,10 @@
     transition: background 0.15s linear;
   }
 
+  &:hover::before {
+    background: hsla(180,20%,20%, 0.7);
+  }
+
 }
 .flickity-page-dots .dot.is-selected::before {
   background: hsla(180,20%,20%, 0.5);

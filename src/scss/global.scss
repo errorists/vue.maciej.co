@@ -93,7 +93,7 @@ article .highlighter::after, article .highlighter::before {
 
 .headroom {
   will-change: transform;
-  box-shadow: 0px 1px 10px rgba(40,50,65, .08);
+  box-shadow: 0px 1px 10px  hsla(260,45%,35%, .15);
   transition: transform .2s cubic-bezier(.25, .46, .45, .94);
 }
 .headroom--unpinned {
