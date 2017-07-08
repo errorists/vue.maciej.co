@@ -179,7 +179,7 @@ export default {
 
 @media (max-width: 960px) {
 	article {
-		margin: 0 10vw 15vh 10vw;
+		margin: 10vh 10vw;
 	}
   .gallery::before {
 			width: 100vw;
@@ -222,9 +222,12 @@ export default {
 		width: 290px; height: 256px;
 	}
 	article {
-		margin: 0 5vw 15vh 5vw;
+		margin: 10vh 5vw;
 		font-size: 1.25rem;
 	}
+  .content p {
+    margin-bottom: 3vh;
+  }
 }
 @media (max-width: 320px) {
 	.tablet-video, video {

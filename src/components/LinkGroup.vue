@@ -27,11 +27,15 @@ li {
 li a {
 	margin: 0 1rem;
 }
+@media (max-width: 960px) {
+	div {
+    margin: 5vh 0;
+	}
+}
 @media (max-width: 560px) {
 	ul {
 		display: flex;
 		flex-direction: column;
-    margin-top: 5vh;
 	}
   li a {
 		margin: 0.5rem 1.5rem;

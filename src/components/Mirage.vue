@@ -192,13 +192,16 @@ export default {
 }
 
 @media (max-width: 960px) {
-	article {
-		margin: 0 10vw 15vh 10vw;
+  article {
+		margin: 10vh 10vw;
 	}
   .gallery::before {
 			width: 100vw;
 			margin-left: 0;
 	}
+  .overflowWrap {
+  	margin-bottom: -7vh;
+  }
 }
 @media (max-width: 680px) {
 	video {
@@ -267,10 +270,13 @@ export default {
 	video {
 		width: 188px; height: 334px;
 	}
-	article {
-		margin: 0 5vw 15vh 5vw;
+  article {
+		margin: 10vh 5vw;
 		font-size: 1.25rem;
 	}
+  .content p {
+    margin-bottom: 3vh;
+  }
 	.comparison .icon {
 		width: 92px; height: 92px;
 	}

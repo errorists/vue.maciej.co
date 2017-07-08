@@ -23,7 +23,7 @@
     </div>
     <div class="credits">
       <div class="row">
-        <p><em>About<br />—</em>Maciej is a <span class="tooltip t01">multidisciplinary</span> <span class="tooltip t02">product designer</span> helping startups and brands in <span class="tooltip t03">designing</span> and <span class="tooltip t04">building</span> digital products, services, and experiences.
+        <p><em>About<br />—</em><span class="tooltip t00">Maciej</span> is a <span class="tooltip t01">multidisciplinary</span> <span class="tooltip t02">product designer</span> helping startups and brands in <span class="tooltip t03">designing</span> and <span class="tooltip t04">building</span> digital products, services, and experiences.
         </p>
         <p><em>Get in touch<br />—</em><a href="mailto:hi@maciej.co" title="Maciej&#39;s mailbox"><span class="highlighter">hi@maciej.co</span></a>
         </p>
@@ -105,9 +105,9 @@ em {
     display: inline-block;
     position: absolute;
     left: 50%; bottom: 0;
-    max-width: 320px;
     opacity: 0;
-    background: linear-gradient(340deg, hsla(0,0%,100%, .99) 0%, hsla(260,20%,97%, .8) 100%);
+    background: linear-gradient(130deg, hsl(180,10%,99%), hsl(180,20%,96%));
+    box-shadow: 0 10px 60px hsla(320,30%,40%, 0.25);
     padding: 16px;
     border-radius: 2px;
     font: 14px/1.25 $body;
@@ -117,6 +117,10 @@ em {
     transform: translate(-50%, -24px);
     transition: all 0.2s ease;
     will-change: transform, opacity;
+  }
+  &.t00::after {
+    width: 160px;
+    content: 'Pronounced mah-ch`yay';
   }
   &.t01::after {
     width: 180px;
@@ -136,7 +140,7 @@ em {
   }
   &.t05::after {
     width: 190px;
-    content: 'Freelance. 3+ month projects.';
+    content: 'Freelance, 3+ month projects.';
   }
   &:hover::after {
     opacity: 1;
@@ -164,14 +168,21 @@ em {
 	.row {
 		flex-direction: column;
 	}
-  .tooltip::before {
-    display: none;
-  }
 }
 @media (max-width: 560px) {
 	footer {
 		padding: 0 5vw 15vh 5vw;
+    overflow: hidden;
 	}
+  &.t00::after {
+    left: 140%;
+  }
+  &.t02::after {
+    left: 75%;
+  }
+  &.t04::after {
+    left: 100%;
+  }
 }
 
 </style>

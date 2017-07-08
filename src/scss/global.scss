@@ -106,19 +106,3 @@ article .highlighter::after, article .highlighter::before {
 	transform: translate3d(0, -12px, 0);
   box-shadow: none;
 }
-
-// ROUTER TRANSITION
-
-.view {
-  transition: all .2s cubic-bezier(0.445, 0.050, 0.550, 0.950);
-}
-.move-in-enter, .move-out-leave-active {
-  opacity: 0;
-  -webkit-transform: translate(0, 30px);
-  transform: translate(0, 30px);
-}
-.move-in-leave-active, .move-out-enter {
-  opacity: 0;
-  -webkit-transform: translate(0, 30px);
-  transform: translate(0, 30px);
-}

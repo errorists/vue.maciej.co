@@ -206,11 +206,12 @@ ul {
   background-color: hsl(120,80%,75%);
   background-image: linear-gradient(340deg, hsl(120,80%,75%) 0%, hsl(65,95%,65%) 100%);
 }
-#juice .content {
-  margin-bottom: 10vh;
-}
 #juice .item {
   box-shadow: 0 15px 60px hsla(150,70%,0%, 0.4);
+}
+
+#juice p, #mosaic p {
+  margin-bottom: 3vh;
 }
 
 @media (min-width: 1600px) {
@@ -224,7 +225,7 @@ ul {
 		margin-left: 0;
 	}
   ul {
-		margin-top: 1.5rem;
+		margin: 1.5rem 0 1rem 0;
 		max-width: 580px;
 	}
 	ul li {
