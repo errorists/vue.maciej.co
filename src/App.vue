@@ -33,7 +33,7 @@ export default {
     },
     enter: function(el, done) {
       var b = document.getElementById('blinds');
-      Velocity(el, { opacity: 1 }, { duration: 0, complete: window.scrollTo(500, 0) });
+      Velocity(el, { opacity: 1 }, { duration: 0, complete: window.scrollTo(0, 0) });
       Velocity(b, { translateX: '100%' }, { duration: 600, delay: 200, complete: done });
     },
     leave: function(el, done) {
