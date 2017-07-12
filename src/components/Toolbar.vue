@@ -51,7 +51,7 @@ nav {
   right: 0;
   z-index: 999;
 	background-color: rgba(255,255,255, .98);
-	padding: 0 5vw;
+	padding: 0 5%;
 	width: 100%; height: 54px;
 	display: flex;
 	align-items: stretch;
@@ -96,7 +96,7 @@ nav .highlighter::after {
 }
 @media (max-width: 500px) {
 	nav {
-		padding: 0 5vw;
+		padding: 0 5%;
 	}
 	h4 {
 		font-size: 1rem;

@@ -1,20 +1,15 @@
 // CARDS
 
-section.light {
-	background: linear-gradient(130deg, hsl(180,10%,97%), hsl(180,20%,94%));
-}
-section.dark {
-	background: linear-gradient(130deg, hsl(180,5%,12%), hsl(180,5%,2%));
-}
 .content {
-	width: 95vw;
+	width: 100%;
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
-	padding: 5vh 5vw;
+	padding: 5vh 0;
 }
 .content h3 {
-	width: 15vw;
+	width: 15%;
+	margin-left: 10%;
 	min-width: 168px;
 }
 .content p {
@@ -28,15 +23,14 @@ section.dark {
 	line-height: 25px;
 }
 .gallery {
-	margin-left: -5vw;
-	width: 100vw; height: 100%;
+	width: 100%; height: 100%;
 	z-index: 1;
 
 	&::before {
-		position: absolute; top: 0; right: 0; bottom: 0;
+		position: absolute; top: 0; right: 0; bottom: 0; left: 0;
 		content: '';
-		width: 75vw; height: 100%;
-		margin-left: 25vw;
+		width: 75%; height: 100%;
+		margin-left: 25%;
 		z-index: -1;
 	}
 }

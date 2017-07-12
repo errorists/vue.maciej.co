@@ -53,7 +53,7 @@
 
 footer {
 	max-width: 1200px; height: 100%;
-	padding: 0 5vw 15vh 5vw;
+	padding: 0 5% 15vh 5%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -151,10 +151,8 @@ em {
 @media (max-width: 960px) {
   footer {
 		flex-direction: column;
-		padding: 0 15vw 15vh 15vw;
-	}
-	footer .row p:nth-child(1) {
-		margin-right: 0;
+		padding: 0 0 15vh 0;
+    overflow: hidden;
 	}
 	.me {
 		width: 100%; height: 300px;
@@ -162,26 +160,48 @@ em {
 		display: flex;
 		justify-content: center;
 	}
-  p {
-  	max-width: 720px;
-  }
 	.row {
-		flex-direction: column;
+    margin: 2vh 10%;
 	}
 }
 @media (max-width: 560px) {
-	footer {
-		padding: 0 5vw 15vh 5vw;
-    overflow: hidden;
+  .row {
+    flex-direction: column;
 	}
-  &.t00::after {
+  footer .row p:nth-child(1) {
+		margin-right: 0;
+	}
+}
+@media (max-width: 500px) {
+  .row {
+    margin: 2vh 5%;
+	}
+}
+@media (max-width: 420px) {
+  .t00::after {
     left: 140%;
   }
-  &.t02::after {
-    left: 75%;
+  .t02::after {
+    left: 80%;
   }
-  &.t04::after {
-    left: 100%;
+  .t04::after {
+    left: -10%;
+  }
+}
+@media (max-width: 375px) {
+  .t04::after {
+    left: 110%;
+  }
+}
+@media (max-width: 320px) {
+  .t03::after {
+    left: 150%;
+  }
+  .t04::after {
+    left: 50%;
+  }
+  .t05::after {
+    left: 60%;
   }
 }
 

@@ -1,5 +1,5 @@
 <template>
-  <main id="caseItondo">
+  <main id="caseItondo" class="caseStudy">
 
     <CaseHero>
       <ul slot='headerRole'>
@@ -152,16 +152,7 @@ export default {
 	background: url('../assets/itondo-hero.jpg') no-repeat 0 0;
 	background-size: contain;
 }
-.card {
-	margin-bottom: 10vw;
-}
-.card h3 {
-	width: 20vw;
-	min-width: 240px;
-}
 .gallery::before {
-	width: 70vw;
-	margin-left: 30vw;
   background-color: hsl(315, 90%, 90%);
   background-image: linear-gradient(340deg, hsl(315, 90%, 90%) 0%, hsl(280, 20%, 90%) 100%);
 }
@@ -177,15 +168,9 @@ export default {
 	box-shadow: 0 15px 60px hsla(320,50%,40%, 0.35);
 }
 
-@media (max-width: 960px) {
-	article {
-		margin: 10vh 10vw;
-	}
-  .gallery::before {
-			width: 100vw;
-			margin-left: 0;
-	}
-}
+@import
+'../scss/cases';
+
 @media (max-width: 680px) {
   .tablet-video, video {
 		width: 512px; height: 384px;
@@ -221,13 +206,6 @@ export default {
 	.picture {
 		width: 290px; height: 256px;
 	}
-	article {
-		margin: 10vh 5vw;
-		font-size: 1.25rem;
-	}
-  .content p {
-    margin-bottom: 3vh;
-  }
 }
 @media (max-width: 320px) {
 	.tablet-video, video {

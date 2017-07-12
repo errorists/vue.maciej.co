@@ -11,7 +11,7 @@
 <style lang="scss" scoped>
 div {
 	display: flex;
-	margin: -2vh 0 16vh 0;
+	margin: -4vh 0 14vh 0;
 	justify-content: center;
 }
 ul {
@@ -29,10 +29,13 @@ li a {
 }
 @media (max-width: 960px) {
 	div {
-    margin: 5vh 0;
+    margin: 5vh 0 10vh 0;
 	}
 }
 @media (max-width: 560px) {
+  div {
+    margin: 3vh 0 6vh 0;
+	}
 	ul {
 		display: flex;
 		flex-direction: column;

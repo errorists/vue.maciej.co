@@ -31,8 +31,8 @@
 @import
 '../scss/variables';
 header {
-	width: 95vw; height: 100%;
-	margin: 0 0 10vw 5vw;
+	width: 100%; height: 100%;
+	margin-bottom: 10vw;
 }
 p {
 	color: $text-prime;
@@ -43,7 +43,7 @@ p {
 	max-width: 1280px;
 	display: flex;
 	justify-content: space-between;
-	padding: 5vh 5vw 5vh 25vw;
+	padding: 5vh 5% 5vh 30%;
 }
 h5 {
 	font-size: 1rem;
@@ -60,8 +60,9 @@ li:first-child h5 {
 	justify-content: space-between;
 }
 aside {
-	width: 23vw;
-	margin-right: 2vw;
+	width: 23%;
+  padding-left: 5%;
+	margin-right: 2%;
 }
 h3 {
 	text-indent: 44px;
@@ -94,21 +95,24 @@ h3 {
 }
 .h-right {
 	position: relative;
-	width: 70vw; height: 750px;
+	width: 70%; height: 750px;
 	overflow: hidden;
 	border-radius: 2px 0 0 2px;
 }
 
 @media (max-width: 960px) {
   .h-top {
-		padding: 5vh 5vw 5vh 0;
+		padding: 5vh 10% 5vh 10%;
 	}
 	.h-wrapper {
 		width: 100%;
 		flex-direction: column;
 	}
 	aside {
-		width: 100%;
+    width: 90%;
+    padding-left: 0;
+  	margin-right: 0;
+    margin-left: 10%;
 	}
 	h3 {
 		text-indent: 0;
@@ -117,8 +121,19 @@ h3 {
 		margin: 10vh 0 5vh 0;
 	}
 	.h-right {
-		margin-left: -5vw;
-		width: 100vw;
+		width: 100%;
+	}
+}
+
+@media (max-width: 720px) {
+  .h-top {
+		padding: 5vh 5% 5vh 5%;
+	}
+  aside {
+    width: 95%;
+    padding-left: 0;
+  	margin-right: 0;
+    margin-left: 5%;
 	}
 }
 

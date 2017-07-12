@@ -189,8 +189,8 @@ ul {
   box-shadow: 0 15px 60px hsla(220,60%,30%, 0.35);
 }
 #explain .content h3 {
-  margin-left: -2vw;
-  width: 17vw;
+  margin-left: 8%;
+  width: 17%;
   min-width: 232px;
 }
 
@@ -216,21 +216,22 @@ ul {
 
 @media (min-width: 1600px) {
 	#explain .content h3 {
-		margin-left: 0;
-		width: 15vw;
+		margin-left: 10%;
+		width: 15%;
 	}
 }
 @media (max-width: 960px) {
   #explain .content h3 {
 		margin-left: 0;
+    width: 100%;
 	}
   ul {
 		margin: 1.5rem 0 1rem 0;
-		max-width: 580px;
+		max-width: 100%;
 	}
 	ul li {
 		display: inline-block;
-		margin-right: 5vw;
+		margin-right: 2.5vw;
 	}
 }
 @media (max-width: 560px) {

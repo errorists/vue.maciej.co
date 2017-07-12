@@ -8,23 +8,28 @@
 @media (max-width: 960px) {
 	.content {
 		width: 100%;
-		padding: 5vh 10vw 8vh 10vw;
+		padding: 5vh 10%;
 		flex-direction: column;
 	}
 	.content h3 {
-		margin-bottom: 4vh;
+		width: 100%;
+		margin: 0 0 5vh 0;
 	}
 	.content p {
 		width: 100%;
+		max-width: 100%;
 		margin: 0;
 	}
 	.gallery {
 		margin-left: 0;
 
 		&::before {
-			width: 100vw;
+			width: 100%;
 			margin-left: 0;
 		}
+	}
+	article {
+		margin: 10vh 10%;
 	}
 }
 @media (max-width: 680px) {
@@ -51,7 +56,7 @@
 }
 @media (max-width: 500px) {
 	.content {
-		padding: 5vh 5vw;
+		padding: 5vh 5%;
 	}
 	.tablet {
 		width: 416px; height: 312px;
@@ -62,8 +67,14 @@
 	.phone {
 		width: 240px; height: 427px;
 	}
+	article {
+		margin: 10vh 5%;
+	}
 }
 @media (max-width: 420px) {
+	article {
+		font-size: 1.25rem;
+	}
 	.tablet {
 		width: 320px; height: 240px;
 	}
@@ -83,5 +94,8 @@
 	}
 	.phone {
 		width: 167px; height: 300px;
+	}
+	.content p {
+		min-width: 280px;
 	}
 }

@@ -1,5 +1,5 @@
 <template>
-  <main id="caseMirage">
+  <main id="caseMirage" class="caseStudy">
 
     <CaseHero>
       <ul slot='headerRole'>
@@ -144,16 +144,7 @@ export default {
 	background: url('../assets/mirage-hero.jpg') no-repeat 0 0;
 	background-size: contain;
 }
-.card {
-	margin-bottom: 10vw;
-}
-.card h3 {
-	width: 20vw;
-	min-width: 240px;
-}
 .gallery::before {
-	width: 70vw;
-	margin-left: 30vw;
   background-color: hsl(190,55%,80%);
 	background-image: linear-gradient(340deg, hsl(200,75%,70%) 0%, hsl(180,55%,80%) 100%);
 }
@@ -161,7 +152,7 @@ export default {
 	box-shadow: 0 15px 60px hsla(190,70%,0%, 0.4);
 }
 .overflowWrap {
-	width: 100vw; height: 100%;
+	width: 100%; height: 100%;
 	overflow: hidden;
 }
 .comparison {
@@ -191,14 +182,10 @@ export default {
 	margin: 0;
 }
 
+@import
+'../scss/cases';
+
 @media (max-width: 960px) {
-  article {
-		margin: 10vh 10vw;
-	}
-  .gallery::before {
-			width: 100vw;
-			margin-left: 0;
-	}
   .overflowWrap {
   	margin-bottom: -7vh;
   }
@@ -270,13 +257,6 @@ export default {
 	video {
 		width: 188px; height: 334px;
 	}
-  article {
-		margin: 10vh 5vw;
-		font-size: 1.25rem;
-	}
-  .content p {
-    margin-bottom: 3vh;
-  }
 	.comparison .icon {
 		width: 92px; height: 92px;
 	}
