@@ -29,7 +29,7 @@
         </p>
       </div>
       <div class="row">
-        <p><em>Currently<br />—</em>Available for <span class="tooltip t05">contract design work</span>.<br />Making Mosaic, an app for pixel art makers, and this other thing for musicians, soon to be announced.</p>
+        <p><em>Currently<br />—</em><span class="unavailable">Unavailable for design work.</span><br />Making Mosaic, an app for pixel art makers, and this other thing for musicians, soon to be announced.</p>
         <p><em>Previously<br />—</em><a href="https://www.opera.com" target="_blank"><span class="highlighter">Opera</span></a><br />
           <a href="https://explaineverything.com" target="_blank"><span class="highlighter">Explain Everything</span></a><br />
           <a href="https://www.good.com" target="_blank"><span class="highlighter">Good</span></a>
@@ -92,6 +92,7 @@ em {
   display: inline-block;
   position: relative;
   cursor: help;
+  transition: color 0.15s cubic-bezier(.25, .46, .45, .94);
 
   &::before {
     content: "";
@@ -107,7 +108,7 @@ em {
     left: 50%; bottom: 0;
     opacity: 0;
     background: linear-gradient(130deg, hsl(180,10%,99%), hsl(180,20%,96%));
-    box-shadow: 0 10px 60px hsla(320,30%,40%, 0.25);
+    box-shadow: 0 10px 60px hsla(320,30%,40%, 0.2);
     padding: 16px;
     border-radius: 2px;
     font: 14px/1.25 $body;
@@ -115,7 +116,7 @@ em {
     text-align: center;
     pointer-events: none;
     transform: translate(-50%, -24px);
-    transition: all 0.2s ease;
+    transition: all 0.15s cubic-bezier(.25, .46, .45, .94);
     will-change: transform, opacity;
   }
   &.t00::after {
@@ -132,20 +133,22 @@ em {
   }
   &.t03::after {
     width: 240px;
-    content: 'Art Direction, Branding, Visual Design, UI/UX, Interaction, Animation, Prototyping, User Research';
+    content: 'Art Direction, Branding, Visual Design, UI/UX, Interaction, Animation, Prototyping, Illustration, User Research';
   }
   &.t04::after {
     width: 150px;
     content: 'HTML/CSS/JS, React, Vue, Framer';
   }
-  &.t05::after {
-    width: 190px;
-    content: 'Freelance, 3+ month projects.';
+  &:hover {
+    color: hsl(234,10%,60%);
   }
   &:hover::after {
     opacity: 1;
     transform: translate(-50%, -30px);
   }
+}
+.unavailable:hover {
+  cursor: not-allowed;
 }
 
 @media (max-width: 960px) {
@@ -199,9 +202,6 @@ em {
   }
   .t04::after {
     left: 50%;
-  }
-  .t05::after {
-    left: 60%;
   }
 }
 
