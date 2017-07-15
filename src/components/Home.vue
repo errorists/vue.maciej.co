@@ -119,7 +119,7 @@
 <script>
 import Hero from '@/components/Hero.vue'
 import Card from '@/components/Card.vue'
-import Flickity from 'vue-flickity'
+import Flickity from '@/components/Flickity.vue'
 
 export default {
   mounted () {

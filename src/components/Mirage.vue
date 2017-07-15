@@ -102,7 +102,7 @@ import CaseHero from '@/components/CaseHero.vue'
 import Card from '@/components/Card.vue'
 import LinkGroup from '@/components/LinkGroup.vue'
 import Credits from '@/components/Credits.vue'
-import Flickity from 'vue-flickity'
+import Flickity from '@/components/Flickity.vue'
 
 export default {
   mounted () {
