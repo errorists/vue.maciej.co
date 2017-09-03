@@ -1,8 +1,15 @@
 // @MEDIA
-
+@media (max-width: 1280px) {
+	.desktop {
+		width: 920px; height: 648px;
+	}
+}
 @media (max-width: 1024px) {
 	.flickity-prev-next-button {
 		display: none!important;
+	}
+	.desktop {
+		width: 768px; height: 540px;
 	}
 }
 @media (max-width: 960px) {
@@ -30,6 +37,9 @@
 	}
 	article {
 		margin: 10vh 10%;
+	}
+	.desktop {
+		width: 94%; height: auto;
 	}
 }
 @media (max-width: 680px) {

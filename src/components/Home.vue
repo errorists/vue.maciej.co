@@ -113,6 +113,27 @@
       </Flickity>
     </Card>
 
+		<Card id="opera" class="light">
+      <h3 slot='cardTitle'>Opera</h3>
+      <div slot='cardContent'>
+        <p><span>2016&mdash;2017</span>I was the design lead on the Mac redesign of Opera browser. Together in a small team of designers and developers we conceptualized and put in motion a redesign of the interface focused on adding chat apps like Messenger and Whatsapp inside collapsible panels allowing users to browse and use their most frequently used apps at the same time. We also gave the interface a fresh new look and laid the groundwork for its future expansion.</p>
+				<div class="buttons">
+          <a href="http://www.opera.com" target="_blank" class="button"><span class="highlighter">Download Opera</span><svg width="9" height="14" viewBox="0 0 9 14">
+          <path stroke-width="1.8" d="M1.5 1.5L7 7l-5.5 5.5" fill="none" fill-rule="evenodd"/>
+          </svg></a>
+        </div>
+      </div>
+      <ul slot='cardList'>
+        <li><h4>Product Design</h4></li>
+        <li><h4>Prototyping</h4></li>
+      </ul>
+      <Flickity slot='cardGallery' ref="flickity" :options="flickityOptions" class='gallery'>
+        <figure class="item desktop"><img src='../assets/f1.jpg' alt="Opera Browser" width="2048" height="1440"/></figure>
+        <figure class="item desktop"><img src='../assets/f2.jpg' alt="Messenger Panel" width="2048" height="1440"/></figure>
+        <figure class="item desktop"><img src='../assets/f3.jpg' alt="Speed Dial" width="2048" height="1440"/></figure>
+      </Flickity>
+    </Card>
+
   </main>
 </template>
 
@@ -208,6 +229,14 @@ ul {
 }
 #juice .item {
   box-shadow: 0 15px 60px hsla(150,70%,0%, 0.4);
+}
+
+#opera .gallery::before {
+  background-color: hsl(355,90%,75%);
+  background-image: linear-gradient(340deg, hsl(335,90%,75%) 0%, hsl(15,80%,85%));
+}
+#opera .item {
+  box-shadow: 0 15px 60px hsla(355,70%,0%, 0.4);
 }
 
 #juice p, #mosaic p {
