@@ -236,7 +236,7 @@ ul {
   background-image: linear-gradient(340deg, hsl(335,90%,75%) 0%, hsl(15,80%,85%));
 }
 #opera .item {
-  box-shadow: 0 15px 60px hsla(355,70%,0%, 0.4);
+  box-shadow: 0 15px 60px hsla(355,70%,30%, 0.4);
 }
 
 #juice p, #mosaic p {
