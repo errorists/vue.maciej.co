@@ -8,7 +8,7 @@
       </ul>
       <ul slot='headerScope'>
         <li><h5>Scope</h5></li>
-        <li><h5>UI, UX and Interaction Design</h5></li>
+        <li><h5>Product Design</h5></li>
         <li><h5>Art Direction, Branding</h5></li>
         <li><h5>Animation, Illustration</h5></li>
         <li><h5>Prototyping</h5></li>

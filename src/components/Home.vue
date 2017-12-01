@@ -15,7 +15,7 @@
       <ul slot='cardList'>
         <li><h4>Art Direction</h4></li>
         <li><h4>Branding</h4></li>
-        <li><h4>UI/UX</h4></li>
+        <li><h4>Product Design</h4></li>
         <li><h4>Prototyping</h4></li>
         <li><h4>Illustration</h4></li>
         <li><h4>Icons</h4></li>
@@ -38,7 +38,7 @@
       <ul slot='cardList'>
         <li><h4>Art Direction</h4></li>
         <li><h4>Branding</h4></li>
-        <li><h4>UI/UX</h4></li>
+        <li><h4>Product Design</h4></li>
         <li><h4>Prototyping</h4></li>
         <li><h4>Icons</h4></li>
       </ul>
@@ -82,7 +82,8 @@
         <p><span>2014</span>Juice is a fitness tracking app built with casual, daily use in mind. It tracks all movement, translates it into calories burnt and overlays the distance taken onto a map. Using the app should feel like having a journal for daily activity: a record of how healthy each day was, of where and when you traveled. The app also allows competing against others in achieving these goals.</p>
       </div>
       <ul slot='cardList'>
-        <li><h4>UI/UX</h4></li>
+        <li><h4>UI Design</h4></li>
+				<li><h4>Interaction Design</h4></li>
         <li><h4>Prototyping</h4></li>
         <li><h4>Animation</h4></li>
       </ul>

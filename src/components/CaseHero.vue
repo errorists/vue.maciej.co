@@ -40,7 +40,7 @@ p {
 }
 .h-top {
 	width: 100%; height: 100%;
-	max-width: 1280px;
+	max-width: 70%;
 	display: flex;
 	justify-content: space-between;
 	padding: 5vh 5% 5vh 30%;
