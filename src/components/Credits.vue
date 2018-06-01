@@ -58,7 +58,7 @@
         </p>
       </div>
       <div class="row">
-        <p><em>Currently<br />—</em><span class="unavailable">Unavailable for design work.</span><br />Making Mosaic, an app for pixel art makers, and this other thing for musicians, soon to be announced.</p>
+        <p><em>Currently<br />—</em>Product Designer at <a href="https://www.status.im" target="_blank"><span class="highlighter">Status</span></a>, an open source mobile decentralized app browser and messenger built for Ethereum.<br /></p>
         <p><em>Previously<br />—</em><a href="https://www.opera.com" target="_blank"><span class="highlighter">Opera</span></a><br />
           <a href="https://explaineverything.com" target="_blank"><span class="highlighter">Explain Everything</span></a><br />
           <a href="https://www.good.com" target="_blank"><span class="highlighter">Good</span></a>

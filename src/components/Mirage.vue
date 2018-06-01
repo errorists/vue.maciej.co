@@ -81,7 +81,7 @@
     <Card class="dark">
       <h3 slot='cardTitle'>Prototype</h3>
       <div slot='cardContent'>
-        <p>I’ve created many prototypes like the ones below while working on Mirage. Most of them illustrated a solution to a problem that came out during the design. One such prototype I made was for the multi-selection interface, the part of the app used most often to queue tracks, where you could swipe along multiple table cells in different views while having a persistent bar at the bottom to perform actions on your selection. Needless to say, I’m super stoked about this elegant solution.</p>
+        <p>I’ve created many prototypes like the ones below while working on Mirage. Most of them illustrated a solution to a problem that came out during the design. One such prototype I made was for the multi-selection interface, the part of the app used most often to queue tracks, where you could swipe along multiple table cells in different views while having a persistent bar at the bottom to perform actions on your selection.</p>
       </div>
       <div slot='cardStatic' class='gallery static'>
         <figure class="item phone"><video width="375" height="667" loop autoplay playsinline><source src='../assets/navigation.mp4' type="video/mp4" /></video></figure>
