@@ -1,21 +1,19 @@
 // @MEDIA
-@media (max-width: 1280px) {
-	.desktop {
-		width: 920px; height: 648px;
-	}
-}
 @media (max-width: 1024px) {
 	.flickity-prev-next-button {
 		display: none!important;
 	}
 	.desktop {
-		width: 768px; height: 540px;
+		width: calc(0.9 * 1024px); height: calc(0.9 * 720px);
+	}
+	footer article {
+		font: 1.125rem/1.5 $body;
 	}
 }
 @media (max-width: 960px) {
 	.content {
 		width: 100%;
-		padding: 5vh 10%;
+		padding: 0 5% 5vh 5%;
 		flex-direction: column;
 	}
 	.content h3 {
@@ -35,77 +33,135 @@
 			margin-left: 0;
 		}
 	}
-	article {
-		margin: 10vh 10%;
+	.tablet {
+		width: calc(0.8 * 960px); height: calc(0.8 * 720px);
+	}
+	.portrait {
+		width: calc(0.8 * 576px); height: calc(0.8 *768px);
+	}
+	.phone {
+		width: calc(0.8 * 375px); height: calc(0.8 * 667px);
+	}
+	.phoneLarge {
+		width: calc(0.8 * 375px); height: calc(0.8 * 812px);
 	}
 	.desktop {
-		width: 94%; height: auto;
+		width: calc(0.8 * 1024px); height: calc(0.8 * 720px);
 	}
 }
-@media (max-width: 680px) {
+@media (max-width: 840px) {
 	.tablet {
-		width: 512px; height: 384px;
+		width: calc(0.7 * 960px); height: calc(0.7 * 720px);
 	}
 	.portrait {
-		width: 384px; height: 512px;
+		width: calc(0.7 * 576px); height: calc(0.7 *768px);
 	}
 	.phone {
-		width: 300px; height: 534px;
+		width: calc(0.7 * 375px); height: calc(0.7 * 667px);
+	}
+	.phoneLarge {
+		width: calc(0.7 * 375px); height: calc(0.7 * 812px);
+	}
+	.desktop {
+		width: calc(0.7 * 1024px); height: calc(0.7 * 720px);
 	}
 }
-@media (max-width: 560px) {
+@media (max-width: 720px) {
 	.tablet {
-		width: 480px; height: 360px;
+		width: calc(0.6 * 960px); height: calc(0.6 * 720px);
 	}
 	.portrait {
-		width: 360px; height: 480px;
+		width: calc(0.6 * 576px); height: calc(0.6 *768px);
 	}
 	.phone {
-		width: 281px; height: 500px;
+		width: calc(0.6 * 375px); height: calc(0.6 * 667px);
+	}
+	.phoneLarge {
+		width: calc(0.6 * 375px); height: calc(0.6 * 812px);
+	}
+	.desktop {
+		width: calc(0.6 * 1024px); height: calc(0.6 * 720px);
 	}
 }
-@media (max-width: 500px) {
-	.content {
-		padding: 5vh 5%;
-	}
+@media (max-width: 600px) {
 	.tablet {
-		width: 416px; height: 312px;
+		width: calc(0.5 * 960px); height: calc(0.5 * 720px);
 	}
 	.portrait {
-		width: 312px; height: 416px;
+		width: calc(0.5 * 576px); height: calc(0.5 *768px);
 	}
 	.phone {
-		width: 240px; height: 427px;
+		width: calc(0.5 * 375px); height: calc(0.5 * 667px);
+	}
+	.phoneLarge {
+		width: calc(0.5 * 375px); height: calc(0.5 * 812px);
+	}
+	.desktop {
+		width: calc(0.5 * 1024px); height: calc(0.5 * 720px);
+	}
+}
+@media (max-width: 480px) {
+	.tablet {
+		width: calc(0.4 * 960px); height: calc(0.4 * 720px);
+	}
+	.portrait {
+		width: calc(0.4 * 576px); height: calc(0.4 *768px);
+	}
+	.phone {
+		width: calc(0.4 * 375px); height: calc(0.4 * 667px);
+	}
+	.phoneLarge {
+		width: calc(0.4 * 375px); height: calc(0.4 * 812px);
+	}
+	.desktop {
+		width: calc(0.4 * 1024px); height: calc(0.4 * 720px);
 	}
 	article {
-		margin: 10vh 5%;
+		font: 1.25rem/1.5 $header;
 	}
+	.item span {
+		display: none;
+	}
+	.item h6 {
+		bottom: -40px;
+	}
+	h3 {
+		font: 3.0rem/0.975 $header;
+		letter-spacing: -1px;
+	}
+
 }
-@media (max-width: 420px) {
-	article {
-		font-size: 1.25rem;
-	}
+@media (max-width: 380px) {
 	.tablet {
-		width: 320px; height: 240px;
+		width: calc(0.35 * 960px); height: calc(0.35 * 720px);
 	}
 	.portrait {
-		width: 240px; height: 320px;
+		width: calc(0.35 * 576px); height: calc(0.35 *768px);
 	}
 	.phone {
-		width: 188px; height: 334px;
+		width: calc(0.35 * 375px); height: calc(0.35 * 667px);
+	}
+	.phoneLarge {
+		width: calc(0.35 * 375px); height: calc(0.35 * 812px);
+	}
+	.desktop {
+		width: calc(0.35 * 1024px); height: calc(0.35 * 720px);
 	}
 }
 @media (max-width: 320px) {
 	.tablet {
-		width: 288px; height: 216px;
+		width: calc(0.3 * 960px); height: calc(0.3 * 720px);
 	}
 	.portrait {
-		width: 216px; height: 288px;
+		width: calc(0.3 * 576px); height: calc(0.3 *768px);
 	}
 	.phone {
-		width: 167px; height: 300px;
+		width: calc(0.3 * 375px); height: calc(0.3 * 667px);
 	}
-	.content p {
-		min-width: 280px;
+	.phoneLarge {
+		width: calc(0.3 * 375px); height: calc(0.3 * 812px);
+	}
+	.desktop {
+		width: calc(0.3 * 1024px); height: calc(0.3 * 720px);
 	}
 }

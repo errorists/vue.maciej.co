@@ -1,60 +1,55 @@
 // TYPE
 
 @font-face {
-  font-family: 'Replica-Regular';
-  src: url('assets/RepRegular.woff') format('woff');
+  font-family: 'International-Regular';
+  src: url('assets/nbi-regular.woff2') format('woff2');
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
-  font-family: 'Replica-Mono';
-  src: url('assets/RepMo.woff') format('woff');
-  font-style: normal;
-  font-weight: normal;
-}
-@font-face {
-  font-family: 'Replica-Bold';
-  src: url('assets/RepBold.woff') format('woff');
+  font-family: 'International-Light';
+  src: url('assets/nbi-light.woff2') format('woff2');
   font-style: normal;
   font-weight: normal;
 }
 
 h3 {
-	font: 2.5rem/.9 $header;
+	font: 3.5rem/0.975 $header;
 	font-weight: normal;
 	color: $text-prime;
-	margin-bottom: 1rem;
 	letter-spacing: -1.5px;
 	text-rendering: optimizeLegibility;
 }
 h4 {
-	font: 1rem/1 $mono;
+	font: 1.125rem/1.5 $body;
 	font-weight: normal;
 	color: $text-second;
 }
 h5 {
-	font: 1.125rem/1 $body;
+	font: 1.125rem/1.5 $body;
 	font-weight: normal;
 	color: $text-third;
 }
-p, article {
-	font: 1.125rem/1.4 $body;
+h6 {
+	font: 0.875rem/1.25 $body;
 	font-weight: normal;
-	color: $text-second;
+	color: $text-third;
+}
+p {
+	font: 1.125rem/1.5 $body;
+	font-weight: normal;
+	color: $text-prime;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	hyphens: auto;
 }
 article {
-	font-size: 1.5rem;
-	line-height: 1.45;
-	color: $text-prime;
-	max-width: 720px;
-	margin: 0 10% 10vw 30%;
-}
-li {
-	font: 1rem/1 $body;
+	font: 1.5rem/1.5 $header;
 	font-weight: normal;
+	color: $text-prime;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
 }
 a {
 	color: $link;
@@ -62,7 +57,10 @@ a {
 }
 p a, article a {
 	color: inherit;
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
 	hyphens: none;
+}
+em {
+	font: inherit;
+	color: $text-third;
+	margin-right: 2rem;
 }

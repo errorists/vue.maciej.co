@@ -39,14 +39,13 @@ body {
 	background-color: rgb(255,255,255);
 }
 
-// INTERACTIONS
-
 p a:hover, p a:focus, article a:hover, article a:focus {
 	color: $link;
 }
 .highlighter {
 	display: inline-block;
 	position: relative;
+	transition: color 0.15s cubic-bezier(.25, .46, .45, .94);
 }
 .highlighter::after {
 	content: "";
@@ -55,6 +54,7 @@ p a:hover, p a:focus, article a:hover, article a:focus {
 	top: 80%;
 	background-color: $link;
 	height: 2px;
+	border-radius: 1px;
 	width: 100%;
 	transform: scaleX(0);
 	transform-origin: 0 50%;
@@ -63,47 +63,35 @@ p a:hover, p a:focus, article a:hover, article a:focus {
 a:hover .highlighter::after {
 	transform: scaleX(1);
 }
+.buttons {
+	margin-top: 1rem;
+	display: flex;
+	justify-content: flex-start;
+}
 .button {
 	display: inline-block;
 	height: 40px;
 	margin-right: 2rem;
 }
+.button svg {
+	fill: $link;
+	margin-left: 6px;
+	transform: translate(0,-2px);
+}
 .button .highlighter {
 	font: 1.125rem/40px $body;
 	color: $link;
 }
-p .highlighter::before, article .highlighter::before {
+p .highlighter::before, article .highlighter::before  {
   content: "";
   display: block;
   position: absolute;
-  background-color: hsla(240,20%,80%, 0.5);
+  background-color: hsl(180,12%,87%);
   height: 2px;
-  width: 100%;
+	width: 100%;
+	border-radius: 1px;
 }
-p .highlighter::after, p .highlighter::before,
-article .highlighter::after, article .highlighter::before {
+p .highlighter::after, p .highlighter::before, article .highlighter::after, article .highlighter::before, {
 	top: 90%;
 }
-.button svg {
-	stroke: $link;
-	margin-left: 6px;
-	transform: translate(0,2px);
-}
 
-// HEADROOM
-
-.headroom {
-  will-change: transform;
-  box-shadow: 0px 1px 10px  hsla(260,45%,35%, .15);
-  transition: transform .2s cubic-bezier(.25, .46, .45, .94);
-}
-.headroom--unpinned {
-  transform: translate3d(0, 55px, 0);
-}
-.headroom--pinned {
-  transform: translate3d(0, 0, 0);
-}
-.expanded.headroom--top {
-	transform: translate3d(0, -12px, 0);
-  box-shadow: none;
-}

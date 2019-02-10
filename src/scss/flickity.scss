@@ -51,7 +51,7 @@
 .flickity-page-dots {
   position: absolute;
   width: 100%; height: 50px;
-  bottom: 0;
+  bottom: -3vh;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -69,15 +69,22 @@
     display: block;
     width: 100%; height: 2px;
     margin-top: 24px;
-    background: hsla(180,20%,20%, 0.2);
-    transition: background 0.15s linear;
+    border-radius: 1px;
+    background: hsl(180,10%,80%);
+    transition: margin 0.15s ease;
   }
 
   &:hover::before {
-    background: hsla(180,20%,20%, 0.7);
+    background: hsl(0,0%,100%);
   }
 
 }
 .flickity-page-dots .dot.is-selected::before {
-  background: hsla(180,20%,20%, 0.5);
+  margin-top: 36px;
+}
+
+@media (max-width: 480px) {
+  .flickity-page-dots {
+    display: none;
+  }
 }

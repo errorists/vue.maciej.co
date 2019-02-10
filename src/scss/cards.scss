@@ -5,22 +5,22 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
-	padding: 5vh 0;
+	padding: 0 0 7vh 0;
 }
 .content h3 {
-	width: 15%;
-	margin-left: 10%;
-	min-width: 168px;
+	width: 17%;
+	margin-left: 8%;
+	min-width: 192px;
 }
 .content p {
 	width: 40vw;
-	max-width: 580px;
+	max-width: 720px;
 	min-width: 300px;
-	margin-right: 5vw;
+	margin-right: 3vw;
 }
 .content ul li h4 {
 	color: $text-third;
-	line-height: 25px;
+	line-height: 1.5;
 }
 .gallery {
 	width: 100%; height: 100%;
@@ -31,7 +31,11 @@
 		content: '';
 		width: 75%; height: 100%;
 		margin-left: 25%;
+		padding-bottom: 8vh;
 		z-index: -1;
+		background-image: url('./assets/pattern.png'), linear-gradient(130deg, hsl(180,10%,5%), hsl(0,0%,0%));
+		background-size: 196px, auto;
+		border-radius: 3px 0 0 3px;
 	}
 }
 .static {
@@ -40,28 +44,49 @@
 	justify-content: center;
 }
 .item {
-	margin: 5vh 5vw 10vh 0;
-	overflow: hidden;
-	border-radius: 2px;
+	margin: 5vh 5vw 5vh 0;
+	position: relative;
 	z-index: 2;
+	box-shadow: 0px 16px 60px -12px hsla(0,0%,0%, 0.4);
 
 	&:focus {
 		outline: none;
 	}
 }
+.item img {
+	border-radius: 3px;
+}
+.item span {
+	font: 0.75rem/1 $body;
+	font-weight: normal;
+	color: $text-third;
+	position: absolute;
+	bottom: 0;
+	transform: rotateZ(-90deg) translateY(20px);
+	transform-origin: left;
+	width: 100%;
+}
+.item h6 {
+	position: absolute;
+	bottom: -28px;
+	right: 0;
+	text-align: right;
+}
 .gallery .item:last-of-type {
 	margin-right: 0;
 }
 .tablet {
-	width: 640px; height: 480px;
+	width: 960px; height: 720px;
 }
 .portrait {
-	width: 480px; height: 640px;
+	width: 576px; height: 768px;
 }
 .phone {
 	width: 375px; height: 667px;
 }
+.phoneLarge {
+	width: 375px; height: 812px;
+}
 .desktop {
 	width: 1024px; height: 720px;
-	border-radius: 5px;
 }
