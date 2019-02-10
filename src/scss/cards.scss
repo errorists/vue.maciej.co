@@ -31,10 +31,9 @@
 		content: '';
 		width: 75%; height: 100%;
 		margin-left: 25%;
-		padding-bottom: 8vh;
+		padding-bottom: 6rem;
 		z-index: -1;
-		background-image: url('./assets/pattern.png'), linear-gradient(130deg, hsl(180,10%,5%), hsl(0,0%,0%));
-		background-size: 196px, auto;
+		background: linear-gradient(130deg, hsl(180,50%,5%), hsl(0,0%,0%));
 		border-radius: 3px 0 0 3px;
 	}
 }
@@ -47,7 +46,7 @@
 	margin: 5vh 5vw 5vh 0;
 	position: relative;
 	z-index: 2;
-	box-shadow: 0px 16px 60px -12px hsla(0,0%,0%, 0.4);
+	box-shadow: 0px 16px 60px -12px hsla(0,0%,0%, 0.2);
 
 	&:focus {
 		outline: none;

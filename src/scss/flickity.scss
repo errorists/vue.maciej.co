@@ -51,7 +51,7 @@
 .flickity-page-dots {
   position: absolute;
   width: 100%; height: 50px;
-  bottom: -3vh;
+  bottom: -3rem;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -60,16 +60,15 @@
 }
 .flickity-page-dots .dot {
   display: inline-block;
-  width: 50px; height: 100%;
+  width: 32px; height: 100%;
   margin: 0 5px;
   cursor: pointer;
 
   &::before {
     content: '';
     display: block;
-    width: 100%; height: 2px;
+    width: 100%; height: 1px;
     margin-top: 24px;
-    border-radius: 1px;
     background: hsl(180,10%,80%);
     transition: margin 0.15s ease;
   }
