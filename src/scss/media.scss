@@ -105,19 +105,26 @@
 		width: calc(0.4 * 960px); height: calc(0.4 * 720px);
 	}
 	.portrait {
-		width: calc(0.4 * 576px); height: calc(0.4 *768px);
+		width: calc(0.5 * 576px); height: calc(0.5 *768px);
 	}
 	.phone {
-		width: calc(0.4 * 375px); height: calc(0.4 * 667px);
+		width: calc(0.5 * 375px); height: calc(0.5 * 667px);
 	}
 	.phoneLarge {
-		width: calc(0.4 * 375px); height: calc(0.4 * 812px);
+		width: calc(0.5 * 375px); height: calc(0.5 * 812px);
 	}
 	.desktop {
 		width: calc(0.4 * 1024px); height: calc(0.4 * 720px);
 	}
 	article {
 		font: 1.25rem/1.5 $header;
+	}
+	.gallery::before {
+		padding-bottom: 2rem;
+	}
+	.item {
+		margin: 4em 4rem 4rem 0;
+		box-shadow: 0px 0px 0px 12px hsl(180,2%,12%);
 	}
 	.item span {
 		display: none;
@@ -135,15 +142,6 @@
 	.tablet {
 		width: calc(0.35 * 960px); height: calc(0.35 * 720px);
 	}
-	.portrait {
-		width: calc(0.35 * 576px); height: calc(0.35 *768px);
-	}
-	.phone {
-		width: calc(0.35 * 375px); height: calc(0.35 * 667px);
-	}
-	.phoneLarge {
-		width: calc(0.35 * 375px); height: calc(0.35 * 812px);
-	}
 	.desktop {
 		width: calc(0.35 * 1024px); height: calc(0.35 * 720px);
 	}
@@ -151,15 +149,6 @@
 @media (max-width: 320px) {
 	.tablet {
 		width: calc(0.3 * 960px); height: calc(0.3 * 720px);
-	}
-	.portrait {
-		width: calc(0.3 * 576px); height: calc(0.3 *768px);
-	}
-	.phone {
-		width: calc(0.3 * 375px); height: calc(0.3 * 667px);
-	}
-	.phoneLarge {
-		width: calc(0.3 * 375px); height: calc(0.3 * 812px);
 	}
 	.desktop {
 		width: calc(0.3 * 1024px); height: calc(0.3 * 720px);
