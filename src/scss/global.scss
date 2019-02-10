@@ -91,7 +91,7 @@ p .highlighter::before, article .highlighter::before  {
 	width: 100%;
 	border-radius: 1px;
 }
-p .highlighter::after, p .highlighter::before, article .highlighter::after, article .highlighter::before, {
+p .highlighter::after, p .highlighter::before, article .highlighter::after, article .highlighter::before {
 	top: 90%;
 }
 
