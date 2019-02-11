@@ -9,7 +9,7 @@
     <div class="container">
       <div>
         <article>
-          <em>Hello</em>I am <span class="tooltip t00">Maciej</span>. I'm a multidisciplinary designer working on the intersection of design and engineering. I help startups in defining, designing and building digital products and brands. Currently, I design the world's most secure messaging platform at <a href="https://www.status.im" target="_blank" title="Status website"><span class="highlighter">Status</span></a>, previously I worked for <a href="https://www.opera.com" target="_blank" title="Opera website"><span class="highlighter">Opera</span></a>, <a href="https://explaineverything.com" target="_blank" title="Explain Everything website"><span class="highlighter">Explain Everything</span></a> and <a href="https://www.good.com" target="_blank"><span class="highlighter" title="BlackBerry">BlackBerry</span></a>
+          <em>Hello</em>I am Maciej. I'm a multidisciplinary designer working on the intersection of design and engineering. I help startups in defining, designing and building digital products and brands. Currently, I design the world's most secure messaging platform at <a href="https://www.status.im" target="_blank" title="Status website"><span class="highlighter">Status</span></a>, previously I worked for <a href="https://www.opera.com" target="_blank" title="Opera website"><span class="highlighter">Opera</span></a>, <a href="https://explaineverything.com" target="_blank" title="Explain Everything website"><span class="highlighter">Explain Everything</span></a> and <a href="https://www.good.com" target="_blank"><span class="highlighter" title="BlackBerry">BlackBerry</span></a>
         </article>
         <div class="buttons">
             <a href="mailto:hi@maciej.co" title="Maciej's mailbox" class="button"><span class="highlighter">Get in touch</span><svg width="17" height="8" viewBox="0 0 17 8">
@@ -114,45 +114,6 @@ article {
 	max-width: 720px;
 	min-width: 512px;
   margin-bottom: 1.5vh;
-}
-.tooltip {
-  display: inline-block;
-  position: relative;
-  cursor: help;
-  transition: color 0.15s cubic-bezier(.25, .46, .45, .94);
-
-  &::before {
-    content: "";
-    display: block;
-    position: absolute; top: 90%;
-    background-color: hsl(180,12%,87%);
-    height: 2px;
-    width: 100%;
-    border-radius: 1px;
-  }
-  &::after {
-    display: block;
-    position: absolute;
-    left: 0; bottom: 0;
-    opacity: 0;
-    font: 1.5rem/1.5 $header;
-    color: $text-third;
-    pointer-events: none;
-    transform: translateY(-24px);
-    transition: all 0.15s cubic-bezier(.25, .46, .45, .94);
-    will-change: transform, opacity;
-  }
-  &.t00::after {
-    width: 40vw;
-    content: 'Pronounced `much-yay`';
-  }
-  &:hover {
-    color:$text-third;
-  }
-  &:hover::after {
-    opacity: 1;
-    transform: translateY(-38px);
-  }
 }
 @media (max-width: 960px) {
   header {
