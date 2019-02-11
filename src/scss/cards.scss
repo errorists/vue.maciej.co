@@ -65,12 +65,12 @@
 	transform: rotateZ(-90deg) translateY(12px);
 	transform-origin: left;
 	width: 100%;
+	letter-spacing: 2px;
 }
 .item h6 {
 	position: absolute;
-	bottom: -50px;
-	right: 0;
-	text-align: right;
+	top: -21px;
+	left: 0;
 }
 .gallery .item:last-of-type {
 	margin-right: 0;
