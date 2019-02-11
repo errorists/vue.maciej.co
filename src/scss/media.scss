@@ -35,6 +35,9 @@
 			border-radius: 0;
 		}
 	}
+	.item::before {
+		display: none;
+	}
 	.tablet {
 		width: calc(0.8 * 960px); height: calc(0.8 * 720px);
 	}
@@ -125,8 +128,7 @@
 		padding-bottom: 2rem;
 	}
 	.item {
-		margin: 4em 4rem 4rem 0;
-		box-shadow: 0px 0px 0px 12px hsl(180,2%,12%);
+		margin: 4em 4rem 2rem 0;
 	}
 	.item span {
 		display: none;
