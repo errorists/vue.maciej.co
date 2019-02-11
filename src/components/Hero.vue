@@ -1,6 +1,5 @@
 <template>
   <header>
-    <p>Maciej Zadykowicz</p>
     <section>
       <canvas id="particles"></canvas>
       <svg width="640" height="130" viewBox="0 0 640 130">
@@ -94,10 +93,6 @@ header {
   justify-content: flex-end;
   margin-bottom: 7vh;
 }
-header p {
-  font: 1.5rem/1.5 $header;
-  margin: 3vh 0 auto 8%;
-}
 header section {
   width: 40vw; height: auto;
   min-width: 512px;
@@ -123,10 +118,6 @@ article {
 @media (max-width: 960px) {
   header {
     justify-content: space-between;
-  }
-  header p {
-    font: 1.25rem/1.5 $header;
-    margin: 3vh 5% auto 5%;
   }
 	header section {
     width: 90%;
