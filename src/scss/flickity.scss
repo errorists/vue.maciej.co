@@ -68,12 +68,12 @@
     display: block;
     width: 80%; height: 1px;
     margin: 24px 10% 0 10%;
-    background: hsl(180,5%,80%);
+    background: hsl(0,0%,100%);
     transition: margin 0.15s ease;
   }
 
   &:hover::before {
-    background: hsl(0,0%,100%);
+    background: hsl(180,5%,70%);
   }
 
 }
