@@ -40,7 +40,7 @@ export default {
       var PI2 = Math.PI * 2
       var imgs = []
       for (var i = 0; i < mp; i++) {
-        var colors = ['#ffcc00', '#ff9500', '#ff3b30', '#ff5e3a']
+        var colors = ['#DD413C', '#F5C93D', '#194AE6', '#3D8F4E', '#E699BE']
         var color = colors[Math.floor(Math.random() * colors.length)]
         particles.push({
           x: Math.floor(Math.random() * W),

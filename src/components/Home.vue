@@ -4,7 +4,7 @@
     <Card id="status">
       <h3 slot='cardTitle'>status</h3>
       <div slot='cardContent'>
-        <p><em>2018&mdash;present</em>I'm the lead designer on Status chat and browser Swarms. Status is an open source secure messaging platform that allows you to transact and interact with the decentralised web, while Swarms are ideas which interdisciplinary teams band around and get them built. Together, we've created novel ways for people to monetise their attention, sticker markets where artists can fully own and sell their work or tools to build and discover the new Web 3.0.</p>
+        <p><em>2018&mdash;present</em>I'm the lead designer on Status chat and browser Swarms. Status is an open source secure messaging platform that allows you to transact and interact with the decentralised web, while Swarms are ideas which interdisciplinary teams band around and get them built. Together, we've created novel ways for people to monetise their attention, sticker markets where artists can fully own and sell their work and tools to build and discover the new Web3.</p>
 				<div class="buttons">
           <a href="http://www.status.im" target="_blank" class="button"><span class="highlighter">Get Status</span>
           <svg width="17" height="8" viewBox="0 0 17 8">
