@@ -13,7 +13,7 @@
           <p><em>what interests you</em></p><p>composing electronic music, modernism, graphic novels, street fashion, skateboarding</p>
         </section>
         <section>
-          <p><em>where are you based</em></p><p>I work remotely from places around the globe, my hometown being Wroclaw, Poland</p>
+          <p><em>where are you based</em></p><p>I work remotely from places around the globe</p>
         </section>
         <section>
           <p><em>are you available for work</em></p><p>currently no, I'm not taking any new work</p>

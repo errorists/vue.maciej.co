@@ -4,9 +4,13 @@
     <Card id="status">
       <h3 slot='cardTitle'>status</h3>
       <div slot='cardContent'>
-        <p><em>2018&mdash;present</em>I'm the lead designer on Status chat and browser Swarms. Status is an open source secure messaging platform that allows you to transact and interact with the decentralised web, while Swarms are ideas which interdisciplinary teams band around and get them built. Together, we've created novel ways for people to monetise their attention, sticker markets where artists can fully own and sell their work and tools to build and discover the new Web3.</p>
+        <p><em>2018&mdash;present</em>I'm the lead designer on Status chat and browser swarms. Status is an open source secure messaging platform that allows you to transact and interact with the Ethereum ecosystem, while swarms are ideas which interdisciplinary teams band around and bring them to life. Together, we've created novel ways for people to monetise their attention, sticker markets where artists can fully own and sell their work and tools to build and discover the emerging Web3.</p>
 				<div class="buttons">
           <a href="http://www.status.im" target="_blank" class="button"><span class="highlighter">Get Status</span>
+          <svg width="17" height="8" viewBox="0 0 17 8">
+          <path d="M10.5 4.74999C10.7761 4.74999 11 4.97385 11 5.24999V7.06573C11 7.46508 11.4451 7.70328 11.7774 7.48176L16.6256 4.24961C16.8037 4.13086 16.8037 3.86912 16.6256 3.75038L11.7773 0.518226C11.4451 0.296708 11 0.534904 11 0.934252V2.74999C11 3.02614 10.7761 3.24999 10.5 3.24999H1C0.585786 3.24999 0.25 3.58578 0.25 3.99999C0.25 4.41421 0.585786 4.74999 1 4.74999H10.5Z"/>
+          </svg></a>
+          <a href="https://design.status.im" target="_blank" class="button"><span class="highlighter">Status Design</span>
           <svg width="17" height="8" viewBox="0 0 17 8">
           <path d="M10.5 4.74999C10.7761 4.74999 11 4.97385 11 5.24999V7.06573C11 7.46508 11.4451 7.70328 11.7774 7.48176L16.6256 4.24961C16.8037 4.13086 16.8037 3.86912 16.6256 3.75038L11.7773 0.518226C11.4451 0.296708 11 0.534904 11 0.934252V2.74999C11 3.02614 10.7761 3.24999 10.5 3.24999H1C0.585786 3.24999 0.25 3.58578 0.25 3.99999C0.25 4.41421 0.585786 4.74999 1 4.74999H10.5Z"/>
           </svg></a>
