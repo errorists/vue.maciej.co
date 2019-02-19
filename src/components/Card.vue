@@ -21,13 +21,13 @@
 section {
   position: relative;
 	width: 100%;
-	padding: 4vh 0 15vh 0;
+	padding: 4vh 0 6rem 0;
 	margin: 0 0 15vw 0;
   border-radius: 2px 0 0 2px;
 
   &::before {
     content: '';
-    background: linear-gradient(130deg, hsl(180,10%,97%), hsl(180,20%,94%));
+    background: linear-gradient(130deg, hsl(180,10%,97%), hsl(0,0%,100%));
     position: absolute; left: 5vw; right: 0; top: 0; bottom: 0;
     z-index: -1;
   }

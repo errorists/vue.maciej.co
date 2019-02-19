@@ -187,7 +187,6 @@ export default {
 
 ul {
 	max-width: 20vw;
-	font-size: 0;
 }
 #explain .content h3 {
   min-width: 300px;
