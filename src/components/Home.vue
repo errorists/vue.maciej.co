@@ -191,6 +191,9 @@ ul {
 #explain .content h3 {
   min-width: 300px;
 }
+#mosaic .content h3 {
+  min-width: 212px;
+}
 #mosaic p {
   margin-bottom: 3vh;
 }
