@@ -1,4 +1,9 @@
 // @MEDIA
+@media (max-width: 1200px) {
+	.content p {
+		column-count: 1;
+	}
+}
 @media (max-width: 1024px) {
 	.flickity-prev-next-button {
 		display: none!important;
@@ -129,12 +134,6 @@
 	}
 	.item {
 		margin: 4em 4rem 0 0;
-	}
-	.item span {
-		display: none;
-	}
-	.item h6 {
-		bottom: -40px;
 	}
 	h3 {
 		font: 3.0rem/0.975 $header;

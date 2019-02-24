@@ -23,10 +23,10 @@
         <li><h4>Motion Design</h4></li>
       </ul>
       <Flickity slot='cardGallery' ref="flickity" :options="flickityOptions" class='gallery'>
-        <figure class="item phoneLarge"><img src='../assets/s1.jpg' alt="Status Chat" width="750" height="1624"/><h6>Sending ETH in chat</h6><span>01</span></figure>
-        <figure class="item phoneLarge"><img src='../assets/s2.jpg' alt="Status Browser" width="750" height="1624"/><h6>Browsing ÐApp Store</h6><span>02</span></figure>
-        <figure class="item phoneLarge"><img src='../assets/s3.jpg' alt="Status Wallet" width="750" height="1624"/><h6>Transacting in crypto wallet</h6><span>03</span></figure>
-        <figure class="item phoneLarge"><img src='../assets/s4.jpg' alt="Status Profile" width="750" height="1624"/><h6>User Profile</h6><span>04</span></figure>
+        <figure class="item phoneLarge"><img src='../assets/s1.jpg' alt="Status Chat" width="750" height="1624"/></figure>
+        <figure class="item phoneLarge"><img src='../assets/s2.jpg' alt="Status Browser" width="750" height="1624"/></figure>
+        <figure class="item phoneLarge"><img src='../assets/s3.jpg' alt="Status Wallet" width="750" height="1624"/></figure>
+        <figure class="item phoneLarge"><img src='../assets/s4.jpg' alt="Status Profile" width="750" height="1624"/></figure>
       </Flickity>
     </Card>
 
@@ -47,10 +47,10 @@
         <li><h4>Motion Design</h4></li>
       </ul>
       <Flickity slot='cardGallery' ref="flickity" :options="flickityOptions" class='gallery'>
-        <figure class="item phoneLarge"><img src='../assets/r1.jpg' alt="Aintu Home" width="750" height="1624"/><h6>Home</h6><span>01</span></figure>
-        <figure class="item phoneLarge"><img src='../assets/r2.jpg' alt="Aintu Store" width="750" height="1624"/><h6>Browsing store offers</h6><span>02</span></figure>
-        <figure class="item phoneLarge"><img src='../assets/r3.jpg' alt="Aintu Map" width="750" height="1624"/><h6>Finding nearby stores</h6><span>03</span></figure>
-        <figure class="item phoneLarge"><img src='../assets/r4.jpg' alt="Aintu Cart" width="750" height="1624"/><h6>Collecting offers</h6><span>04</span></figure>
+        <figure class="item phoneLarge"><img src='../assets/r1.jpg' alt="Aintu Home" width="750" height="1624"/></figure>
+        <figure class="item phoneLarge"><img src='../assets/r2.jpg' alt="Aintu Store" width="750" height="1624"/></figure>
+        <figure class="item phoneLarge"><img src='../assets/r3.jpg' alt="Aintu Map" width="750" height="1624"/></figure>
+        <figure class="item phoneLarge"><img src='../assets/r4.jpg' alt="Aintu Cart" width="750" height="1624"/></figure>
       </Flickity>
     </Card>
 
@@ -70,9 +70,9 @@
         <li><h4>Motion Design</h4></li>
       </ul>
       <Flickity slot='cardGallery' ref="flickity" :options="flickityOptions" class='gallery'>
-        <figure class="item desktop"><img src='../assets/f1.jpg' alt="Opera Browser" width="2048" height="1440"/><h6>Redesigned window</h6><span>01</span></figure>
-        <figure class="item desktop"><img src='../assets/f2.jpg' alt="Messenger Panel" width="2048" height="1440"/><h6>Messaging slideover</h6><span>02</span></figure>
-        <figure class="item desktop"><img src='../assets/f3.jpg' alt="Speed Dial" width="2048" height="1440"/><h6>Speed Dial and dark theme</h6><span>03</span></figure>
+        <figure class="item desktop"><img src='../assets/f1.jpg' alt="Opera Browser" width="2048" height="1440"/></figure>
+        <figure class="item desktop"><img src='../assets/f2.jpg' alt="Messenger Panel" width="2048" height="1440"/></figure>
+        <figure class="item desktop"><img src='../assets/f3.jpg' alt="Speed Dial" width="2048" height="1440"/></figure>
       </Flickity>
     </Card>
 
@@ -97,9 +97,9 @@
         <li><h4>Motion Design</h4></li>
       </ul>
       <Flickity slot='cardGallery' ref="flickity" :options="flickityOptions" class='gallery'>
-        <figure class="item tablet"><img src='../assets/e1.jpg' alt="Explain Everything Canvas View" width="1920" height="1440"/><h6>Creating and editing documents</h6><span>01</span></figure>
-        <figure class="item phone"><img src='../assets/e2.jpg' alt="Explain Everything iPhone" width="750" height="1334"/><h6>iPhone prototype</h6><span>02</span></figure>
-        <figure class="item tablet"><img src='../assets/e3.jpg' alt="Explain Everything Projects View" width="1920" height="1440"/><h6>Redesigned project canvas</h6><span>03</span></figure>
+        <figure class="item tablet"><img src='../assets/e1.jpg' alt="Explain Everything Canvas View" width="1920" height="1440"/></figure>
+        <figure class="item phone"><img src='../assets/e2.jpg' alt="Explain Everything iPhone" width="750" height="1334"/></figure>
+        <figure class="item tablet"><img src='../assets/e3.jpg' alt="Explain Everything Projects View" width="1920" height="1440"/></figure>
       </Flickity>
     </Card>
 
@@ -116,10 +116,10 @@
         <li><h4>Motion Design</h4></li>
       </ul>
       <Flickity slot='cardGallery' ref="flickity" :options="flickityOptions" class='gallery'>
-        <figure class="item phone"><img src='../assets/m1.jpg' alt="Mosaic Welcome Screen" width="750" height="1334"/><h6>Welcoming new users</h6><span>01</span></figure>
-        <figure class="item tablet"><img src='../assets/m2.jpg' alt="Mosaic Art View" width="1920" height="1440"/><h6>Drawing pixel art</h6><span>02</span></figure>
-        <figure class="item phone"><img src='../assets/m3.jpg' alt="Mosaic Collection View" width="750" height="1334"/><h6>Browsing pixel artworks</h6><span>03</span></figure>
-        <figure class="item phone"><img src='../assets/m4.jpg' alt="Mosaic Camera View" width="750" height="1334"/><h6>Snapping pixelated pictures</h6><span>04</span></figure>
+        <figure class="item phone"><img src='../assets/m1.jpg' alt="Mosaic Welcome Screen" width="750" height="1334"/></figure>
+        <figure class="item tablet"><img src='../assets/m2.jpg' alt="Mosaic Art View" width="1920" height="1440"/></figure>
+        <figure class="item phone"><img src='../assets/m3.jpg' alt="Mosaic Collection View" width="750" height="1334"/></figure>
+        <figure class="item phone"><img src='../assets/m4.jpg' alt="Mosaic Camera View" width="750" height="1334"/></figure>
       </Flickity>
     </Card>
 
@@ -142,10 +142,10 @@
         <li><h4>Motion Design</h4></li>
       </ul>
       <Flickity slot='cardGallery' ref="flickity" :options="flickityOptions" class='gallery'>
-        <figure class="item tablet"><img src='../assets/a1.jpg' alt="Itondo Collection View" width="1920" height="1440"/><h6>Exploring art in store</h6><span>01</span></figure>
-        <figure class="item phone"><img src='../assets/a2.jpg' alt="Itondo Welcome Screen" width="750" height="1334"/><h6>Onboarding new users</h6><span>02</span></figure>
-        <figure class="item tablet"><img src='../assets/a3.jpg' alt="Itondo Art View" width="1920" height="1440"/><h6>Zooming in on artwork details</h6><span>03</span></figure>
-        <figure class="item portrait"><img src='../assets/a4.jpg' alt="Itondo Artist Screen" width="1152" height="1536"/><h6>Discovering artists</h6><span>04</span></figure>
+        <figure class="item tablet"><img src='../assets/a1.jpg' alt="Itondo Collection View" width="1920" height="1440"/></figure>
+        <figure class="item phone"><img src='../assets/a2.jpg' alt="Itondo Welcome Screen" width="750" height="1334"/></figure>
+        <figure class="item tablet"><img src='../assets/a3.jpg' alt="Itondo Art View" width="1920" height="1440"/></figure>
+        <figure class="item portrait"><img src='../assets/a4.jpg' alt="Itondo Artist Screen" width="1152" height="1536"/></figure>
       </Flickity>
     </Card>
     <Credits/>

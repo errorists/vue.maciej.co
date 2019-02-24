@@ -40,7 +40,7 @@ export default {
       var PI2 = Math.PI * 2
       var imgs = []
       for (var i = 0; i < mp; i++) {
-        var colors = ['#DD413C', '#F5C93D', '#194AE6', '#3D8F4E', '#E699BE']
+        var colors = ['#DD413C', '#F5C93D', '#1947FF', '#3D8F4E', '#E699BE']
         var color = colors[Math.floor(Math.random() * colors.length)]
         particles.push({
           x: Math.floor(Math.random() * W),
@@ -87,32 +87,28 @@ export default {
 '../scss/variables';
 
 header {
-  width: 100%; height: 90vh;
+  width: 100%; height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-bottom: 7vh;
+  margin-bottom: 12vh;
 }
 header section {
-  width: 40vw; height: auto;
-  min-width: 512px;
-  max-width: 740px;
-  margin-left: 25%;
+  width: 50%; height: auto;
+  margin: auto 25%;
   position: relative;
 }
 section svg {
   position: absolute;
-  left: -1vw; top: -1px; right: 0; bottom: 0;
-  width: 104%; height: auto;
+  left: -1.7vw; top: -1px; right: 0; bottom: 0;
+  width: 107%; height: auto;
   fill: rgb(255,255,255);
 }
 .container {
-  margin: 4vh 0 0 25%;
+  margin: 0 0 5vh 25%;
 }
 article {
-  width: 40vw;
-	max-width: 720px;
-	min-width: 512px;
+  width: 50vw;
   margin-bottom: 1.5vh;
 }
 @media (max-width: 960px) {
@@ -127,7 +123,10 @@ article {
   }
   .container {
     width: 90%;
-    margin: auto 5% 0 5%;
+    margin: auto 5% 5vh 5%;
+  }
+  section svg {
+    left: -3vw;
   }
   article {
     width: 100%;

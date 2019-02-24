@@ -67,8 +67,8 @@ h3 {
   margin: 4vh 0 0 8%;
 }
 aside {
-  width: 75%;
-  margin: 4vh 5% 5rem 0;
+  width: 70%;
+  margin: 4vh 5% 4vh 0;
   display: flex;
   flex-direction: column;
 }
@@ -80,37 +80,27 @@ aside em {
 }
 section p:first-child {
   text-align: right;
-  margin-right: 2rem;
-  flex-basis: 30%;
+  width: 20vw;
 }
 section p:nth-child(2) {
-  flex-basis: 70%;
+  width: 48vw;
+  margin-left: 2vw;
 }
 .pics {
   width: 100%; height: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
-  padding-left: 25%;
-}
-.pics::before {
-  content: '©2019 Maciej Zadykowicz';
-  position: absolute;
-  max-width: 17vw;
-  left: 8%;
-  bottom: 3rem;
-  font: 1.125rem/1.25 $body;
-  color: $text-third;
-}
-.pics figure {
-  margin: 0 2vw 0 0;
 }
 .pics figure:first-of-type {
-  align-self: flex-start;
+  margin-left: 8%;
+  width: 37%;
+}
+.pics figure:nth-of-type(2) {
+  margin-left: 2%;
+  width: 20%;
 }
 .pics figure:last-of-type {
-  margin-right: 5vw;
+  margin-left: 2%;
+  width: 31%;
 }
 .pics figure img {
   width: 100%; height: auto;
@@ -125,11 +115,11 @@ section p:nth-child(2) {
   }
   h3 {
     width: 95%;
-    margin: 5rem 0 0 5%;
+    margin: 4vh 0 0 5%;
   }
   aside {
     width: 90%;
-    margin: 3rem 5% 5rem 5%;
+    margin: 3rem 5% 4vh 5%;
   }
   aside section {
     flex-direction: column;
@@ -137,32 +127,28 @@ section p:nth-child(2) {
   }
   section p:first-child {
     text-align: left;
-    margin-right: 0;
+    width: 100%;
+  }
+  section p:nth-child(2) {
+    width: 100%;
+    margin-left: 0;
   }
   .pics {
-    padding: 0;
-    margin-bottom: 5rem;
     flex-wrap: wrap;
-  }
-  .pics figure {
-    margin: 0 0 5vw 0;
+    align-items: flex-start;
   }
   .pics figure:first-of-type {
-    width: 75%;
-    margin-left: auto;
+    width: 60%;
+    margin: 0 5% 0 0;
+    align-self: flex-end;
   }
   .pics figure:nth-of-type(2) {
-    width: 45%;
+    width: 35%;
+    margin: 0;
   }
   .pics figure:last-of-type {
-    width: 50%;
-    margin-right: 0;
-    align-self: flex-start;
-  }
-  .pics::before {
-    max-width: 90vw;
-    left: 5%;
-    bottom: -2rem;
+    width: 60%;
+    margin: 5% 0 0 0;
   }
 }
 
