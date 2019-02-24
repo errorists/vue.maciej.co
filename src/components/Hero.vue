@@ -29,12 +29,12 @@ export default {
       var ctx = canvas.getContext('2d')
       var tempcanvas = document.createElement('canvas')
       var tempctx = tempcanvas.getContext('2d')
-      canvas.width = 636
-      canvas.height = 126
+      canvas.width = 954
+      canvas.height = 189
       canvas.style.width = 100 + '%'
       canvas.style.height = 'auto'
-      var W = 636
-      var H = 126
+      var W = 954
+      var H = 189
       var mp = 50
       var particles = []
       var PI2 = Math.PI * 2
@@ -46,8 +46,8 @@ export default {
           x: Math.floor(Math.random() * W),
           y: Math.floor(Math.random() * H),
           z: Math.floor(Math.random() * mp),
-          d: Math.floor(Math.random() * (4 - 1) + 1),
-          r: Math.floor(Math.random() * (30 - 15) + 15),
+          d: Math.floor(Math.random() * (6 - 2) + 2),
+          r: Math.floor(Math.random() * (60 - 30) + 30),
           o: color
         })
         var p = particles[i]
@@ -69,7 +69,7 @@ export default {
           var p = particles[i]
           p.y -= p.d
           if (p.y <= -p.r * 4) {
-            p.y = 126
+            p.y = 189
             p.x = ~~(Math.random() * W)
           }
           ctx.drawImage(imgs[i], p.x, p.y)
