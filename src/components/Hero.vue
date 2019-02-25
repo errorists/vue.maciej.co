@@ -90,12 +90,12 @@ header {
   width: 100%; height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  margin-bottom: 12vh;
+  justify-content: space-around;
+  margin-bottom: 6vh;
 }
 header section {
   width: 50%; height: auto;
-  margin: auto 25%;
+  margin: 0 25%;
   position: relative;
 }
 section svg {
@@ -105,11 +105,11 @@ section svg {
   fill: rgb(255,255,255);
 }
 .container {
-  margin: 0 0 5vh 25%;
+  margin: 0 25%;
 }
 article {
   width: 50vw;
-  margin-bottom: 1.5vh;
+  margin-bottom: 2vh;
 }
 @media (max-width: 960px) {
   header {

@@ -3,7 +3,7 @@
     <h3>about</h3>
     <div>
       <section>
-        <p>My name is Maciej, prenounced ‘much-yay’. I'm a designer, engineer, friend and musician doing stuff on the Internet.</p>
+        <p>My name is Maciej, prenounced ‘much-yay’. I’m a designer, engineer, friend and musician doing stuff on the Internet.</p>
         <figure><img src='../assets/p1.jpg' alt="Me" width="975" height="750"/></figure>
       </section>
       <section>
