@@ -127,13 +127,13 @@
 		width: calc(0.4 * 1024px); height: calc(0.4 * 720px);
 	}
 	article {
-		font: 1.25rem/1.5 $header;
+		font: 1.125rem/1.5 $body;
 	}
 	.gallery::before {
 		padding-bottom: 4rem;
 	}
 	.item {
-		margin: 4em 4rem 0 0;
+		margin: 4rem 4rem 0 0;
 	}
 	h3 {
 		font: 3.0rem/0.975 $header;

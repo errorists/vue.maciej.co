@@ -123,7 +123,7 @@ article {
   }
   .container {
     width: 90%;
-    margin: auto 5% 5vh 5%;
+    margin: auto 5% 10vh 5%;
   }
   section svg {
     left: -3vw;
@@ -132,13 +132,8 @@ article {
     width: 100%;
     min-width: auto;
     max-width: 100%;
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
 	}
-}
-@media (max-width: 320px) {
-  header {
-    height: 100vh;
-  }
 }
 </style>
 
