@@ -106,7 +106,7 @@
     <Card id="mosaic">
       <h3 slot='cardTitle'>mosaic</h3>
       <div slot='cardContent'>
-        <p><em>2016</em>Mosaic is a side project we’ve made with a friend. It's a deliberately simple app for creating pixel art on the iPhone and iPad. It has just the right tools and limitations needed to comfortably draw pixel artworks on touch screens or use the camera to turn photos into a pixelated canvas. I designed the entire product and the cute little brand accompanying it.</p>
+        <p><em>2016</em>Mosaic is a side project we’ve made with a friend. It’s a deliberately simple app for creating pixel art on the iPhone and iPad. It has just the right tools and limitations needed to comfortably draw pixel artworks on touch screens or use the camera to turn photos into a pixelated canvas. I designed the entire product and the cute little brand accompanying it.</p>
       </div>
       <ul slot='cardList'>
         <li><h4>Art Direction</h4></li>
