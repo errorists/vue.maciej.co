@@ -188,6 +188,24 @@ export default {
 ul {
 	max-width: 20vw;
 }
+#status::after {
+  content: '1';
+}
+#aintu::after {
+  content: '2';
+}
+#opera::after {
+  content: '3';
+}
+#explain::after {
+  content: '4';
+}
+#mosaic::after {
+  content: '5';
+}
+#itondo::after {
+  content: '6';
+}
 #explain .content h3 {
   min-width: 300px;
 }

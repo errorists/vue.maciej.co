@@ -18,6 +18,10 @@
 </template>
 
 <style lang="scss" scoped>
+
+@import
+'../scss/variables';
+
 section {
   position: relative;
 	width: 100%;
@@ -31,10 +35,21 @@ section {
     position: absolute; left: 5vw; right: 0; top: 0; bottom: 0;
     z-index: -1;
   }
+  &::after {
+    content: '1';
+    position: absolute;
+    left: 7%;
+    font: 3.5rem/0.975 $header;
+    font-weight: normal;
+    color: $text-third;
+  }
 }
 @media (max-width: 960px) {
   section::before {
     left: 0;
+  }
+  section::after {
+    display: none;
   }
 }
 </style>
