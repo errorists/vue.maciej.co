@@ -87,28 +87,28 @@ export default {
 '../scss/variables';
 
 header {
-  width: 100%; height: 100vh;
+  width: 100%; min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 6vh;
 }
 header section {
-  width: 50%; height: auto;
-  margin: 0 25%;
+  width: 47%;
+  margin: 0 3.5%;
   position: relative;
 }
 section svg {
   position: absolute;
-  left: -1.7vw; top: -1px; right: 0; bottom: 0;
-  width: 107%; height: auto;
+  left: -1px; top: -1px; right: 0; bottom: 0;
+  width: 102%; height: auto;
   fill: rgb(255,255,255);
 }
 .container {
-  margin: 0 25%;
+  margin: 2vw 5vw 0 50vw;
 }
 article {
-  width: 50vw;
+  width: 45vw;
   margin-bottom: 2vh;
 }
 @media (max-width: 960px) {
@@ -116,17 +116,12 @@ article {
     justify-content: space-between;
   }
 	header section {
-    width: 90%;
-    margin: 5vh 5% 0 5%;
-    min-width: auto;
-    max-width: 90%;
+    width: 96%;
+    margin: 4vw 2% 0 2%;
   }
   .container {
     width: 90%;
     margin: auto 5% 10vh 5%;
-  }
-  section svg {
-    left: -3vw;
   }
   article {
     width: 100%;
