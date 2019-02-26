@@ -3,7 +3,7 @@
     <h3>about</h3>
     <div>
       <section>
-        <p>My name is Maciej, pronounced ‘much-yay’. I’m a designer, engineer, friend and musician doing stuff on the Internet.</p>
+        <p>My name is Maciej, pronounced ‘much-yay’. I’m a designer, engineer, friend and musician making things on the Internet.</p>
         <figure><img src='../assets/p1.jpg' alt="Me" width="975" height="750"/></figure>
       </section>
       <section>
@@ -11,11 +11,11 @@
         <figure><img src='../assets/p2.jpg' alt="Synths" width="1000" height="1500"/></figure>
       </section>
       <section>
-        <p>I’m a team player, my best work was made together with great people and companies. I’d love to list you all but you know who you are.</p>
+        <p>I'm a team player, my best work was done together with great people and companies. I’d like to thank you all, you know who you are.</p>
         <figure><img src='../assets/p3.jpg' alt="Teamplay" width="975" height="750"/></figure>
       </section>
       <section>
-        <p>I work remotely from my home office in Wrocław, Poland. I value the flexibility and globetrotting lifestyle that goes with remote work.</p>
+        <p>I live and work remotely from my home studio in Wrocław, Poland. Currently, I'm not available for new work and speaking engagements.</p>
         <figure><img src='../assets/p4.jpg' alt="Office" width="1125" height="750"/></figure>
       </section>
     </div>
