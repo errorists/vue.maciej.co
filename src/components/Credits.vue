@@ -11,11 +11,11 @@
         <figure><img src='../assets/p2.jpg' alt="Synths" width="1000" height="1500"/></figure>
       </section>
       <section>
-        <p>I'm a team player, my best work was done together with great people and companies. I’d like to thank you all, you know who you are.</p>
+        <p>I’m a team player, my best work was done together with great people and companies. I’d like to thank you all, you know who you are.</p>
         <figure><img src='../assets/p3.jpg' alt="Teamplay" width="975" height="750"/></figure>
       </section>
       <section>
-        <p>I live and work remotely from my home studio in Wrocław, Poland. Currently, I'm not available for new work and speaking engagements.</p>
+        <p>I live and work remotely from my home studio in Wrocław, Poland. Currently, I’m not available for new work and speaking engagements.</p>
         <figure><img src='../assets/p4.jpg' alt="Office" width="1125" height="750"/></figure>
       </section>
     </div>
