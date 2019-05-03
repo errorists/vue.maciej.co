@@ -8,20 +8,19 @@
     </section>
     <div class="container">
       <div>
-        <article>
+        <p>
           <em>Hello</em>I am Maciej. I’m a multidisciplinary designer working on the intersection of design and engineering. I help startups in defining, designing and building digital products and brands. Currently, I design the world’s most secure messaging platform at <a href="https://www.status.im" target="_blank" title="Status website"><span class="highlighter">Status</span></a>, previously I worked for <a href="https://www.opera.com" target="_blank" title="Opera website"><span class="highlighter">Opera</span></a>, <a href="https://explaineverything.com" target="_blank" title="Explain Everything website"><span class="highlighter">Explain Everything</span></a> and <a href="https://www.good.com" target="_blank"><span class="highlighter" title="BlackBerry">BlackBerry</span></a>
-        </article>
-        <div class="buttons">
-            <a href="mailto:hi@maciej.co" title="Maciej’s mailbox" class="button"><span class="highlighter">Get in touch</span><svg width="17" height="8" viewBox="0 0 17 8">
-            <path d="M10.5 4.74999C10.7761 4.74999 11 4.97385 11 5.24999V7.06573C11 7.46508 11.4451 7.70328 11.7774 7.48176L16.6256 4.24961C16.8037 4.13086 16.8037 3.86912 16.6256 3.75038L11.7773 0.518226C11.4451 0.296708 11 0.534904 11 0.934252V2.74999C11 3.02614 10.7761 3.24999 10.5 3.24999H1C0.585786 3.24999 0.25 3.58578 0.25 3.99999C0.25 4.41421 0.585786 4.74999 1 4.74999H10.5Z"/>
-            </svg></a>
-        </div>
+        </p>
+        <Button link='mailto:hi@maciej.co' label='Get in touch'></Button>
       </div>
     </div>
   </header>
 </template>
 
 <script>
+
+import Button from '@/components/Button.vue'
+
 export default {
   mounted () {
     this.$nextTick(() => {
@@ -77,6 +76,9 @@ export default {
       }
       animate()
     })
+  },
+  components: {
+    Button
   }
 }
 </script>
@@ -85,30 +87,28 @@ export default {
 
 @import
 '../scss/variables';
-
 header {
   width: 100%; min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 6vh;
 }
 header section {
-  width: 47%;
-  margin: 0 3.5%;
+  width: 75%;
+  margin: 10% 0 0 22.5%;
   position: relative;
 }
 section svg {
   position: absolute;
-  left: -1px; top: -1px; right: 0; bottom: 0;
+  left: -2px; top: -2px; right: 0; bottom: 0;
   width: 102%; height: auto;
   fill: rgb(255,255,255);
 }
 .container {
-  margin: 2vw 5vw 0 50vw;
+  margin: 2vw 5vw 0 25vw;
 }
-article {
-  width: 45vw;
+p {
+  width: 40vw;
   margin-bottom: 2vh;
 }
 @media (max-width: 960px) {
@@ -123,11 +123,10 @@ article {
     width: 90%;
     margin: auto 5% 10vh 5%;
   }
-  article {
+  p {
     width: 100%;
     min-width: auto;
     max-width: 100%;
-    margin-bottom: 3vh;
 	}
 }
 </style>

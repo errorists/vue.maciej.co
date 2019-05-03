@@ -1,9 +1,4 @@
 // @MEDIA
-@media (max-width: 1200px) {
-	.content p {
-		column-count: 1;
-	}
-}
 @media (max-width: 1024px) {
 	.flickity-prev-next-button {
 		display: none!important;
@@ -11,16 +6,12 @@
 	.desktop {
 		width: calc(0.9 * 1024px); height: calc(0.9 * 720px);
 	}
-	footer article {
-		font: 1.125rem/1.5 $body;
-	}
 }
 @media (max-width: 960px) {
 	.content {
 		width: 100%;
 		padding: 0 5% 5vh 5%;
 		flex-direction: column;
-		border-radius: 0;
 	}
 	.content h3 {
 		width: 100%;
@@ -126,9 +117,6 @@
 	.desktop {
 		width: calc(0.4 * 1024px); height: calc(0.4 * 720px);
 	}
-	article {
-		font: 1.125rem/1.5 $body;
-	}
 	.gallery::before {
 		padding-bottom: 4rem;
 	}
@@ -138,6 +126,15 @@
 	h3 {
 		font: 2.75rem/0.975 $header;
 		letter-spacing: -1px;
+	}
+	h4 {
+		font: 1rem/1.5 $body;
+	}
+	h5 {
+		font: 1rem/1.5 $body;
+	}
+	p {
+		font: 1rem/1.5 $body;
 	}
 
 }

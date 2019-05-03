@@ -39,9 +39,6 @@ body {
 	background-color: rgb(255,255,255);
 }
 
-p a:hover, p a:focus, article a:hover, article a:focus {
-	color: $link;
-}
 .highlighter {
 	display: inline-block;
 	position: relative;
@@ -52,7 +49,7 @@ p a:hover, p a:focus, article a:hover, article a:focus {
 	display: block;
 	position: absolute;
 	top: 80%;
-	background-color: $link;
+	background-color: $text-prime;
 	height: 2px;
 	border-radius: 1px;
 	width: 100%;
@@ -64,25 +61,11 @@ a:hover .highlighter::after {
 	transform: scaleX(1);
 }
 .buttons {
-	margin-top: 1rem;
+	margin-top: 2vh;
 	display: flex;
 	justify-content: flex-start;
 }
-.button {
-	display: inline-block;
-	height: 40px;
-	margin-right: 2rem;
-}
-.button svg {
-	fill: $link;
-	margin-left: 6px;
-	transform: translate(0,-2px);
-}
-.button .highlighter {
-	font: 1.125rem/40px $body;
-	color: $link;
-}
-p .highlighter::before, article .highlighter::before  {
+p .highlighter::before {
   content: "";
   display: block;
   position: absolute;
@@ -91,7 +74,7 @@ p .highlighter::before, article .highlighter::before  {
 	width: 100%;
 	border-radius: 1px;
 }
-p .highlighter::after, p .highlighter::before, article .highlighter::after, article .highlighter::before {
+p .highlighter::after, p .highlighter::before {
 	top: 90%;
 }
 

@@ -6,14 +6,8 @@
       <div slot='cardContent'>
         <p><em>2018&mdash;present</em>I’m the lead designer on Status chat and browser swarms. Status is an open source secure messaging platform that allows you to transact and interact with the Ethereum ecosystem, while swarms are ideas which interdisciplinary teams band around and bring them to life. Together, we’ve created novel ways for people to monetise their attention, sticker markets where artists can fully own and sell their work and tools to build and discover the emerging Web3.</p>
 				<div class="buttons">
-          <a href="http://www.status.im" target="_blank" class="button"><span class="highlighter">Get Status</span>
-          <svg width="17" height="8" viewBox="0 0 17 8">
-          <path d="M10.5 4.74999C10.7761 4.74999 11 4.97385 11 5.24999V7.06573C11 7.46508 11.4451 7.70328 11.7774 7.48176L16.6256 4.24961C16.8037 4.13086 16.8037 3.86912 16.6256 3.75038L11.7773 0.518226C11.4451 0.296708 11 0.534904 11 0.934252V2.74999C11 3.02614 10.7761 3.24999 10.5 3.24999H1C0.585786 3.24999 0.25 3.58578 0.25 3.99999C0.25 4.41421 0.585786 4.74999 1 4.74999H10.5Z"/>
-          </svg></a>
-          <a href="https://design.status.im" target="_blank" class="button"><span class="highlighter">Status Design</span>
-          <svg width="17" height="8" viewBox="0 0 17 8">
-          <path d="M10.5 4.74999C10.7761 4.74999 11 4.97385 11 5.24999V7.06573C11 7.46508 11.4451 7.70328 11.7774 7.48176L16.6256 4.24961C16.8037 4.13086 16.8037 3.86912 16.6256 3.75038L11.7773 0.518226C11.4451 0.296708 11 0.534904 11 0.934252V2.74999C11 3.02614 10.7761 3.24999 10.5 3.24999H1C0.585786 3.24999 0.25 3.58578 0.25 3.99999C0.25 4.41421 0.585786 4.74999 1 4.74999H10.5Z"/>
-          </svg></a>
+          <Button link='https://www.status.im' label='Get Status'></Button>
+          <Button link='https://design.status.im' label='Status Design'></Button>
         </div>
       </div>
       <ul slot='cardList'>
@@ -35,10 +29,7 @@
       <div slot='cardContent'>
         <p><em>2017</em>The Aintu team hired me as a product design consultant whose responsibility was to improve the user experience of their digital products. To help this, I created and tested numerous prototypes, putting forward-thinking ideas into motion while caring for the existing interface. I also helped nurture a culture of design thinking inside the team and helped other designers shape the visual language of the company.</p>
 				<div class="buttons">
-          <a href="https://itunes.apple.com/in/app/ringring/id1260897284" target="_blank" class="button"><span class="highlighter">Get it on the App Store</span>
-          <svg width="17" height="8" viewBox="0 0 17 8">
-          <path d="M10.5 4.74999C10.7761 4.74999 11 4.97385 11 5.24999V7.06573C11 7.46508 11.4451 7.70328 11.7774 7.48176L16.6256 4.24961C16.8037 4.13086 16.8037 3.86912 16.6256 3.75038L11.7773 0.518226C11.4451 0.296708 11 0.534904 11 0.934252V2.74999C11 3.02614 10.7761 3.24999 10.5 3.24999H1C0.585786 3.24999 0.25 3.58578 0.25 3.99999C0.25 4.41421 0.585786 4.74999 1 4.74999H10.5Z"/>
-          </svg></a>
+          <Button link='https://itunes.apple.com/in/app/ringring/id1260897284' label='Get it on the App Store'></Button>
         </div>
       </div>
       <ul slot='cardList'>
@@ -59,9 +50,7 @@
       <div slot='cardContent'>
         <p><em>2016&mdash;2017</em>I was the design lead on the Mac redesign of Opera browser. Together in a small team of designers and developers we conceptualised and put in motion a redesign of the interface focused on bringing the mobile app experiences and apps inside the desktop browser, including lessons learned from previous well-received concepts like <a href="https://www.opera.com/computer/neon" target="_blank" title="Opera Neon"><span class="highlighter">Opera Neon</span></a>. We also gave the interface a fresh new look and laid the groundwork for its future expansion.</p>
 				<div class="buttons">
-          <a href="http://www.opera.com" target="_blank" class="button"><span class="highlighter">Download Opera</span><svg width="17" height="8" viewBox="0 0 17 8">
-          <path d="M10.5 4.74999C10.7761 4.74999 11 4.97385 11 5.24999V7.06573C11 7.46508 11.4451 7.70328 11.7774 7.48176L16.6256 4.24961C16.8037 4.13086 16.8037 3.86912 16.6256 3.75038L11.7773 0.518226C11.4451 0.296708 11 0.534904 11 0.934252V2.74999C11 3.02614 10.7761 3.24999 10.5 3.24999H1C0.585786 3.24999 0.25 3.58578 0.25 3.99999C0.25 4.41421 0.585786 4.74999 1 4.74999H10.5Z"/>
-          </svg></a>
+          <Button link='http://www.opera.com' label='Download Opera'></Button>
         </div>
       </div>
       <ul slot='cardList'>
@@ -81,12 +70,8 @@
       <div slot='cardContent'>
         <p><em>2015&mdash;2016</em>Explain Everything is a digital interactive whiteboard made for educators, students, and creators to communicate their ideas, teach and learn from others. For over a year I worked as a product designer on the team. Together we conceptualised, designed and communicated new groundbreaking features like real-time collaboration, apps for the iPhone and Apple TV and the introduction of Discover, a content sharing portal for all things made with Explain Everything.</p>
         <div class="buttons">
-          <a href="https://itunes.apple.com/app/id1020339980?mt=8" target="_blank" class="button"><span class="highlighter">Get it on the App Store</span><svg width="17" height="8" viewBox="0 0 17 8">
-          <path d="M10.5 4.74999C10.7761 4.74999 11 4.97385 11 5.24999V7.06573C11 7.46508 11.4451 7.70328 11.7774 7.48176L16.6256 4.24961C16.8037 4.13086 16.8037 3.86912 16.6256 3.75038L11.7773 0.518226C11.4451 0.296708 11 0.534904 11 0.934252V2.74999C11 3.02614 10.7761 3.24999 10.5 3.24999H1C0.585786 3.24999 0.25 3.58578 0.25 3.99999C0.25 4.41421 0.585786 4.74999 1 4.74999H10.5Z"/>
-          </svg></a>
-          <a href="https://play.google.com/store/apps/details?id=com.explaineverything.explaineverything" target="_blank" class="button"><span class="highlighter">Get it on Google Play</span><svg width="17" height="8" viewBox="0 0 17 8">
-          <path d="M10.5 4.74999C10.7761 4.74999 11 4.97385 11 5.24999V7.06573C11 7.46508 11.4451 7.70328 11.7774 7.48176L16.6256 4.24961C16.8037 4.13086 16.8037 3.86912 16.6256 3.75038L11.7773 0.518226C11.4451 0.296708 11 0.534904 11 0.934252V2.74999C11 3.02614 10.7761 3.24999 10.5 3.24999H1C0.585786 3.24999 0.25 3.58578 0.25 3.99999C0.25 4.41421 0.585786 4.74999 1 4.74999H10.5Z"/>
-          </svg></a>
+          <Button link='https://itunes.apple.com/app/id1020339980?mt=8' label='Get it on the App Store'></Button>
+          <Button link='https://play.google.com/store/apps/details?id=com.explaineverything.explaineverything' label='Get it on Google Play'></Button>
         </div>
       </div>
       <ul slot='cardList'>
@@ -128,9 +113,7 @@
       <div slot='cardContent'>
         <p><em>2014&mdash;2015</em>Itondo is an app for discovering, buying and trying out art. It allows anyone to browse and buy from a curated selection of artwork from world-renowned artists and galleries and see how they’d look like in their home or office with the help of an AR powered Live Preview mode. I was the lead designer on the startup, tasked by their founders with shaping the brand, visual language and interface of the project.</p>
         <div class="buttons">
-          <a href="https://itunes.apple.com/au/app/itondo/id1004978847?mt=8" class='button' target="_blank"><span class="highlighter">Get it on the App Store</span><svg width="17" height="8" viewBox="0 0 17 8">
-          <path d="M10.5 4.74999C10.7761 4.74999 11 4.97385 11 5.24999V7.06573C11 7.46508 11.4451 7.70328 11.7774 7.48176L16.6256 4.24961C16.8037 4.13086 16.8037 3.86912 16.6256 3.75038L11.7773 0.518226C11.4451 0.296708 11 0.534904 11 0.934252V2.74999C11 3.02614 10.7761 3.24999 10.5 3.24999H1C0.585786 3.24999 0.25 3.58578 0.25 3.99999C0.25 4.41421 0.585786 4.74999 1 4.74999H10.5Z"/>
-          </svg></a>
+          <Button link='https://itunes.apple.com/au/app/itondo/id1004978847?mt=8' label='Get it on the App Store'></Button>
         </div>
       </div>
       <ul slot='cardList'>
@@ -155,6 +138,7 @@
 <script>
 import Hero from '@/components/Hero.vue'
 import Card from '@/components/Card.vue'
+import Button from '@/components/Button.vue'
 import Flickity from '@/components/Flickity.vue'
 import Credits from '@/components/Credits.vue'
 
@@ -174,6 +158,7 @@ export default {
   components: {
     Hero,
     Card,
+    Button,
     Flickity,
     Credits
   },

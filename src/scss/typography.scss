@@ -14,19 +14,19 @@
 }
 
 h3 {
-	font: 3.5rem/0.975 $header;
+	font: 3.25rem/0.95 $header;
 	font-weight: normal;
 	color: $text-prime;
 	letter-spacing: -1.5px;
 	text-rendering: optimizeLegibility;
 }
 h4 {
-	font: 1.125rem/1.5 $body;
+	font: 1.25rem/1.5 $body;
 	font-weight: normal;
 	color: $text-third;
 }
 h5 {
-	font: 1.125rem/1.5 $body;
+	font: 1.25rem/1.5 $body;
 	font-weight: normal;
 	color: $text-third;
 }
@@ -36,15 +36,7 @@ h6 {
 	color: $text-fifth;
 }
 p {
-	font: 1.125rem/1.5 $body;
-	font-weight: normal;
-	color: $text-prime;
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	hyphens: auto;
-}
-article {
-	font: 1.5rem/1.5 $body;
+	font: 1.25rem/1.5 $body;
 	font-weight: normal;
 	color: $text-prime;
 	-webkit-hyphens: auto;
@@ -52,11 +44,10 @@ article {
 	hyphens: auto;
 }
 a {
-	color: $link;
+	color: inherit;
 	text-decoration: none;
 }
-p a, article a {
-	color: inherit;
+p a {
 	hyphens: none;
 }
 em {

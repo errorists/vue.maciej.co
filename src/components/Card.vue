@@ -39,7 +39,7 @@ section {
     content: '1';
     position: absolute;
     left: 7%;
-    font: 3.5rem/0.975 $header;
+    font: 3.25rem/0.95 $body;
     font-weight: normal;
     color: $text-third;
   }
@@ -47,6 +47,7 @@ section {
 @media (max-width: 960px) {
   section::before {
     left: 0;
+    border-radius: 0;
   }
   section::after {
     display: none;

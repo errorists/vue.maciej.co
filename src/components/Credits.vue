@@ -32,12 +32,12 @@
 '../scss/variables';
 
 footer h3 {
-  margin: 0 0 3rem 5%;
+  margin: 0 0 3rem 7%;
 }
 footer div {
-  width: 93%;
+  width: 91%;
   display: flex;
-  margin: 0 2% 5vh 5%;
+  margin: 0 2% 5vh 7%;
 }
 footer section {
   display: flex;
@@ -65,7 +65,7 @@ footer section:nth-of-type(4) {
 aside {
   display: flex;
   justify-content: space-between;
-  margin: 0 2% 5vh 5%;
+  margin: 0 2% 5vh 7%;
 }
 aside em {
   margin: 0;
@@ -76,6 +76,9 @@ aside em {
     width: 90%;
     margin: 0 5% 5vh 5%;
     flex-wrap: wrap;
+  }
+  footer h3 {
+    margin: 0 2% 5vh 5%;
   }
   footer section {
     flex-direction: column-reverse;
