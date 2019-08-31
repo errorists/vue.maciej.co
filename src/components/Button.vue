@@ -46,7 +46,14 @@ svg {
 	margin-right: 0.5rem;
 	fill: $text-third;
 }
-
+@media (prefers-color-scheme: dark) {
+	span {
+		color: $text-prime-dark;
+	}
+	svg {
+		fill: $text-third-dark;
+	}
+}
 @media (max-width: 480px) {
 	span {
 		font: 1rem/1.5 $header;

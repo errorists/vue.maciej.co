@@ -1,4 +1,38 @@
 // @MEDIA
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: $background-dark;
+	}
+	h3 {
+		color: $text-prime-dark;
+	}
+	h4 {
+		color: $text-third-dark;
+	}
+	h5 {
+		color: $text-third-dark;
+	}
+	p {
+		color: $text-prime-dark;
+	}
+	em {
+		color: $text-third-dark;
+	}
+	.highlighter::after {
+		background-color: $text-prime-dark;
+	}
+	p .highlighter::before {
+		background-color: $text-underscore-dark;
+	}
+	.gallery::before {
+		background: $card-first-dark;
+	}
+	.item img {
+		box-shadow: 0 12px 32px -2px rgba(0,0,0, 0.5);
+	}
+}
+
 @media (max-width: 1024px) {
 	.flickity-prev-next-button {
 		display: none!important;

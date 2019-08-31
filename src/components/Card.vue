@@ -44,6 +44,14 @@ section {
     color: $text-third;
   }
 }
+@media (prefers-color-scheme: dark) {
+  section::before {
+    background: linear-gradient(130deg, hsl(0,0%,10%), hsl(0,0%,4%));
+  }
+  section::after {
+    color: $text-third-dark;
+  }
+}
 @media (max-width: 960px) {
   section::before {
     left: 0;

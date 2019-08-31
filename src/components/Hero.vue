@@ -62,7 +62,7 @@ export default {
       }
       function animate () {
         requestAnimationFrame(animate)
-        ctx.fillStyle = '#000'
+        ctx.fillStyle = window.matchMedia("(prefers-color-scheme: dark)").matches ? '#E0E0E0' : '#000'
         ctx.fillRect(0, 0, W, H)
         for (var i = 0; i < mp; i++) {
           var p = particles[i]
@@ -102,7 +102,7 @@ section svg {
   position: absolute;
   left: -2px; top: -2px; right: 0; bottom: 0;
   width: 102%; height: auto;
-  fill: rgb(255,255,255);
+  fill: $background;
 }
 .container {
   margin: 2vw 5vw 0 25vw;
@@ -110,6 +110,11 @@ section svg {
 p {
   width: 40vw;
   margin-bottom: 2vh;
+}
+@media (prefers-color-scheme: dark) {
+	section svg {
+    fill: $background-dark;
+  }
 }
 @media (max-width: 960px) {
   header {

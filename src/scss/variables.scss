@@ -1,6 +1,16 @@
 $text-prime: hsl(0,0%,6%);
 $text-third: hsl(180,15%,65%);
-$text-fifth: hsl(180,4%,54%);
+$text-underscore: hsl(180,12%,87%);
+
+$text-prime-dark: hsl(0,0%,80%);
+$text-third-dark: hsl(180,4%,52%);
+$text-underscore-dark: hsl(180,4%,20%);
+
+$background: hsl(0,0%,100%);
+$background-dark: hsl(0,0%,4%);
+
+$card-first: hsl(0,0%,4%);
+$card-first-dark: hsl(0,0%,14%);
 
 $font-stack: 'Helvetica Neue', Helvetica, sans-serif;
 $body: 'International-Light', $font-stack;
