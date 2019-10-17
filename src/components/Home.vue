@@ -4,7 +4,7 @@
     <Card id="status">
       <h3 slot='cardTitle'>status</h3>
       <div slot='cardContent'>
-        <p><em>2018&mdash;present</em>I’m the lead designer for Status chat and browser teams. Status is an open source secure messaging platform that allows you to transact and interact with the Ethereum ecosystem. Together in small interdisciplinary swarms, we’ve created unique ways for people to monetise their attention, enable community money, community law and through privacy, preserve culture.</p>
+        <p><em>2018&mdash;present</em>I’m the lead designer for Status chat and browser teams. Status is an open source secure messaging platform that allows you to transact and interact with the Ethereum ecosystem. Together in small interdisciplinary swarms, we’ve created unique new ways for people to monetise their attention, enable community money, community law and through privacy, preserve culture.</p>
 				<div class="buttons">
           <Button link='https://www.status.im' label='Get Status'></Button>
           <Button link='https://design.status.im' label='Status Design'></Button>

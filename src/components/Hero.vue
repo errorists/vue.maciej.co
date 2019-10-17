@@ -9,7 +9,7 @@
     <div class="container">
       <div>
         <p>
-          <em>Hello</em>I am Maciej. I’m a multidisciplinary designer working on the intersection of design and engineering. I help startups in defining, designing and building digital products and brands. Currently, I design the world’s most secure messaging platform at <a href="https://www.status.im" target="_blank" title="Status website"><span class="highlighter">Status</span></a>, previously I worked for <a href="https://www.opera.com" target="_blank" title="Opera website"><span class="highlighter">Opera</span></a>, <a href="https://explaineverything.com" target="_blank" title="Explain Everything website"><span class="highlighter">Explain Everything</span></a> and <a href="https://www.good.com" target="_blank"><span class="highlighter" title="BlackBerry">BlackBerry</span></a>
+          <em>Hello</em>I am Maciej. I’m a multidisciplinary designer working on the intersection of design and engineering. I help startups in defining, designing and building digital products and brands. Currently, I design the world’s most private, secure messaging platform at <a href="https://www.status.im" target="_blank" title="Status website"><span class="highlighter">Status</span></a>, previously I worked for <a href="https://www.opera.com" target="_blank" title="Opera website"><span class="highlighter">Opera</span></a>, <a href="https://explaineverything.com" target="_blank" title="Explain Everything website"><span class="highlighter">Explain Everything</span></a> and <a href="https://www.good.com" target="_blank"><span class="highlighter" title="BlackBerry">BlackBerry</span></a>
         </p>
         <Button link='mailto:hi@maciej.co' label='Get in touch'></Button>
       </div>
