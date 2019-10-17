@@ -12,7 +12,7 @@
       </div>
       <ul slot='cardList'>
         <li><h4>Product Design</h4></li>
-        <li><h4>Arti Direction</h4></li>
+        <li><h4>Art Direction</h4></li>
         <li><h4>Prototyping</h4></li>
         <li><h4>Web Design</h4></li>
         <li><h4>Motion Design</h4></li>
