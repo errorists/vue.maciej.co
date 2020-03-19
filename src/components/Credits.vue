@@ -21,7 +21,7 @@
     </div>
     <aside>
       <p><a href="mailto:hi@maciej.co" title="Maciej's mailbox"><span class="highlighter">hi@maciej.co</span></a> • <a href="https://get.status.im/user/0x04579634892d7b7280e54d5a0b098aa2b3c5cd90514a94382b10604846e5615c16cfe3401fdd05218d3205bdc2b61d8c454bfe6836652823022ac1677b0848d171" target="_blank" title="Status"><span class="highlighter">Status</span></a> • <a href="https://twitter.com/spaceape" target="_blank" title="Twitter"><span class="highlighter">Twitter</span></a> • <a href="https://github.com/errorists" target="_blank" title="GitHub"><span class="highlighter">GitHub</span></a></p>
-      <p><em>©2019 Maciej Zadykowicz</em></p>
+      <p><em>©2020 Maciej Zadykowicz</em></p>
     </aside>
   </footer>
 </template>
