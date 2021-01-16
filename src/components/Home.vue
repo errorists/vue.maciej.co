@@ -1,6 +1,30 @@
 <template>
   <main id="home">
     <Hero/>
+
+    <Card id="kaala">
+      <h3 slot='cardTitle'>kaala</h3>
+      <div slot='cardContent'>
+        <p><em>2020&mdash;present</em>Kaala is a payments app that's built on top of blockchain. It combines the best of both worlds: the ease of use and familiarity of traditional mobile banking, with the instant speed and low cost of Ethereum sidechains. I worked on the project as its founding designer from the beginning, doing the designs for the app, the brand, website, all marketing collateral and more.</p>
+        <div class="buttons">
+          <Button link='https://www.kaala.app' label='Get Kaala'></Button>
+        </div>
+      </div>
+      <ul slot='cardList'>
+        <li><h4>Product Design</h4></li>
+        <li><h4>Branding</h4></li>
+        <li><h4>Web Design</h4></li>
+        <li><h4>Motion Design</h4></li>
+        <li><h4>Illustration</h4></li>
+      </ul>
+      <Flickity slot='cardGallery' ref="flickity" :options="flickityOptions" class='gallery'>
+        <figure class="item phoneLarge"><img src='../assets/k1.jpg' alt="Status Chat" width="750" height="1624"/></figure>
+        <figure class="item phoneLarge"><img src='../assets/k2.jpg' alt="Status Browser" width="750" height="1624"/></figure>
+        <figure class="item phoneLarge"><img src='../assets/k3.jpg' alt="Status Wallet" width="750" height="1624"/></figure>
+        <figure class="item phoneLarge"><img src='../assets/k4.jpg' alt="Status Profile" width="750" height="1624"/></figure>
+      </Flickity>
+    </Card>
+
     <Card id="status">
       <h3 slot='cardTitle'>status</h3>
       <div slot='cardContent'>
@@ -69,10 +93,9 @@
     <Card id="explain">
       <h3 slot='cardTitle'>explain everything</h3>
       <div slot='cardContent'>
-        <p><em>2015&mdash;2016</em>Explain Everything is a digital interactive whiteboard made for educators, students, and creators to communicate their ideas, teach and learn from others. For over a year I worked as a product designer on the team. Together we conceptualised, designed and communicated new groundbreaking features like real-time collaboration, apps for the iPhone and Apple TV and the introduction of Discover: a content sharing portal for all things made with Explain Everything.</p>
+        <p><em>2015&mdash;2016</em>Explain Everything is an award-winning digital interactive whiteboard made for educators, students, and creators to communicate their ideas, teach and learn from others. For over a year I worked as a product designer on the team. Together we conceptualised, designed and communicated new groundbreaking features like real-time collaboration, apps for the iPhone and Apple TV and the introduction of Discover: a content sharing portal for all things made with Explain Everything.</p>
         <div class="buttons">
           <Button link='https://itunes.apple.com/app/id1020339980?mt=8' label='Get it on the App Store'></Button>
-          <Button link='https://play.google.com/store/apps/details?id=com.explaineverything.explaineverything' label='Get it on Google Play'></Button>
         </div>
       </div>
       <ul slot='cardList'>
@@ -86,26 +109,6 @@
         <figure class="item tablet"><img src='../assets/e1.jpg' alt="Explain Everything Canvas View" width="1920" height="1440"/></figure>
         <figure class="item phone"><img src='../assets/e2.jpg' alt="Explain Everything iPhone" width="750" height="1334"/></figure>
         <figure class="item tablet"><img src='../assets/e3.jpg' alt="Explain Everything Projects View" width="1920" height="1440"/></figure>
-      </Flickity>
-    </Card>
-
-    <Card id="mosaic">
-      <h3 slot='cardTitle'>mosaic</h3>
-      <div slot='cardContent'>
-        <p><em>2016</em>Mosaic is a side project I’ve made with a friend. It’s a deliberately simple app for creating pixel art on the iPhone and iPad. It has just the right tools and limitations needed to effortlessly draw pixel artworks on touch screens or use the camera to turn photos into a pixelated canvas. I designed the entire product and the cute little brand accompanying it.</p>
-      </div>
-      <ul slot='cardList'>
-        <li><h4>Art Direction</h4></li>
-        <li><h4>Product Design</h4></li>
-        <li><h4>Prototyping</h4></li>
-        <li><h4>Brand</h4></li>
-        <li><h4>Motion Design</h4></li>
-      </ul>
-      <Flickity slot='cardGallery' ref="flickity" :options="flickityOptions" class='gallery'>
-        <figure class="item phone"><img src='../assets/m1.jpg' alt="Mosaic Welcome Screen" width="750" height="1334"/></figure>
-        <figure class="item tablet"><img src='../assets/m2.jpg' alt="Mosaic Art View" width="1920" height="1440"/></figure>
-        <figure class="item phone"><img src='../assets/m3.jpg' alt="Mosaic Collection View" width="750" height="1334"/></figure>
-        <figure class="item phone"><img src='../assets/m4.jpg' alt="Mosaic Camera View" width="750" height="1334"/></figure>
       </Flickity>
     </Card>
 
@@ -174,19 +177,19 @@ export default {
 ul {
 	max-width: 20vw;
 }
-#status::after {
+#kaala::after {
   content: '1';
 }
-#aintu::after {
+#status::after {
   content: '2';
 }
-#opera::after {
+#aintu::after {
   content: '3';
 }
-#explain::after {
+#opera::after {
   content: '4';
 }
-#mosaic::after {
+#explain::after {
   content: '5';
 }
 #itondo::after {
@@ -194,12 +197,6 @@ ul {
 }
 #explain .content h3 {
   min-width: 300px;
-}
-#mosaic .content h3 {
-  min-width: 212px;
-}
-#mosaic p {
-  margin-bottom: 3vh;
 }
 @media (max-width: 960px) {
   ul {
