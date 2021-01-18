@@ -9,8 +9,8 @@ $text-underscore-dark: hsl(180,4%,20%);
 $background: hsl(0,0%,100%);
 $background-dark: hsl(0,0%,4%);
 
-$card-first: hsl(0,0%,4%);
-$card-first-dark: hsl(0,0%,14%);
+$card-first: linear-gradient(130deg, hsl(180,7%,94%), hsl(180,2%,99%));
+$card-first-dark: linear-gradient(130deg, hsl(0,0%,14%), hsl(0,0%,8%));
 
 $font-stack: 'Helvetica Neue', Helvetica, sans-serif;
 $body: 'International-Light', $font-stack;
