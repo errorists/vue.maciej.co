@@ -20,7 +20,7 @@
       </section>
     </div>
     <aside>
-      <p><a href="mailto:hi@maciej.co" title="Maciej's mailbox"><span class="highlighter">hi@maciej.co</span></a> • <a href="https://get.status.im/user/0x044d48860e863a926e5db44ca466c1bfcccb36a8887c6c3ed00d3433b438fa21506174bb73dbbe1ef57b225075848bebbcfdbad5837f0372f93869d51e489463c6" target="_blank" title="Status"><span class="highlighter">Status</span></a> • <a href="https://twitter.com/spaceape" target="_blank" title="Twitter"><span class="highlighter">Twitter</span></a> • <a href="https://github.com/errorists" target="_blank" title="GitHub"><span class="highlighter">GitHub</span></a> • <a href="https://foundation.app/maciej" target="_blank" title="Foundation"><span class="highlighter">Foundation</span></a></p>
+      <p><a href="mailto:hi@maciej.co" title="Maciej's mailbox"><span class="highlighter">hi@maciej.co</span></a> • <a href="https://read.cv/soso" target="_blank" title="Read CV"><span class="highlighter">Read CV</span></a> • <a href="https://get.status.im/user/0x044d48860e863a926e5db44ca466c1bfcccb36a8887c6c3ed00d3433b438fa21506174bb73dbbe1ef57b225075848bebbcfdbad5837f0372f93869d51e489463c6" target="_blank" title="Status"><span class="highlighter">Status</span></a> • <a href="https://twitter.com/spaceape" target="_blank" title="Twitter"><span class="highlighter">Twitter</span></a> • <a href="https://github.com/errorists" target="_blank" title="GitHub"><span class="highlighter">GitHub</span></a> • <a href="https://foundation.app/maciej" target="_blank" title="Foundation"><span class="highlighter">Foundation</span></a></p>
       <p><em>©2021 Maciej Zadykowicz</em></p>
     </aside>
   </footer>
