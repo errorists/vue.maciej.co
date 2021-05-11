@@ -115,7 +115,7 @@
     <Card id="itondo">
       <h3 slot='cardTitle'>itondo</h3>
       <div slot='cardContent'>
-        <p><em>2014&mdash;2015</em>Itondo is an app for discovering, buying and trying out art. It allows anyone to browse and buy from a curated selection of artwork from world-renowned artists and galleries and see how they’d look like in their home or office with the help of an AR powered Live Preview mode. I was the lead designer on the startup, employed by its founders to shape the brand, visual language and interface of the project.</p>
+        <p><em>2014&mdash;2015</em>Itondo is an app for discovering, buying and trying out art. It allows anyone to browse and buy from a curated selection of artworks from world-renowned artists and galleries and see how they’d look like in their space with the help of an AR powered Live Preview mode. I was the lead designer on the startup, employed by its founders to shape the brand, visual language and the entire end-to-end user experience of the product.</p>
         <div class="buttons">
           <Button link='https://itunes.apple.com/au/app/itondo/id1004978847?mt=8' label='Get it on the App Store'></Button>
         </div>
