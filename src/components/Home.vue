@@ -5,7 +5,7 @@
     <Card id="kaala">
       <h3 slot='cardTitle'>Kaala</h3>
       <div slot='cardContent'>
-        <p><em>2020&mdash;present</em>Kaala is a payments app that's built on top of blockchain. It combines the best of both worlds: the ease of use and familiarity of traditional mobile banking, with the instant speed and low cost of Ethereum sidechains. I worked on the project as its founding designer from the beginning, doing the designs for the app, the brand, website, all marketing collateral and more.</p>
+        <p><em>2020</em>Kaala is a payments app that's built on top of blockchain. It combines the best of both worlds: the ease of use and familiarity of traditional mobile banking, with the instant speed and low cost of Ethereum sidechains. I worked on the project as its founding designer from the beginning, doing the designs for the app, the brand, website, all marketing collateral and more.</p>
         <div class="buttons">
           <Button link='https://www.kaala.app' label='Get Kaala'></Button>
         </div>

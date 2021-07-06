@@ -11,7 +11,7 @@
         <p>
           <em>👋 Hello</em>I am Maciej. I’m a multidisciplinary designer working on the intersection of design and engineering in the Ethereum space. Currently, I'm the mobile design lead at <a href="https://www.status.im" target="_blank" title="Status website"><span class="highlighter">Status</span></a>, previously <a href="https://www.opera.com" target="_blank" title="Opera website"><span class="highlighter">Opera</span></a>, <a href="https://explaineverything.com" target="_blank" title="Explain Everything website"><span class="highlighter">Explain Everything</span></a> and <a href="https://www.good.com" target="_blank"><span class="highlighter" title="BlackBerry">BlackBerry</span></a>.
         </p>
-        <Button link='mailto:hi@maciej.co' label='Get in touch'></Button><Button link='https://read.cv/soso' label='Read cv'></Button>
+        <Button link='mailto:hi@maciej.co' label='Get in touch'></Button><Button link='https://read.cv/soso' label='Read.cv'></Button>
       </div>
     </div>
   </header>
