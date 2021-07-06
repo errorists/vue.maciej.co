@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <h3>about</h3>
+    <h3>About</h3>
     <div>
       <section>
         <p>My name is Maciej, pronounced ‘much-yay’. I’m a designer, engineer, friend and musician making things on the Internet. He/Him</p>

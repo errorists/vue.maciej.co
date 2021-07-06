@@ -3,7 +3,7 @@
     <Hero/>
 
     <Card id="kaala">
-      <h3 slot='cardTitle'>kaala</h3>
+      <h3 slot='cardTitle'>Kaala</h3>
       <div slot='cardContent'>
         <p><em>2020&mdash;present</em>Kaala is a payments app that's built on top of blockchain. It combines the best of both worlds: the ease of use and familiarity of traditional mobile banking, with the instant speed and low cost of Ethereum sidechains. I worked on the project as its founding designer from the beginning, doing the designs for the app, the brand, website, all marketing collateral and more.</p>
         <div class="buttons">
@@ -26,7 +26,7 @@
     </Card>
 
     <Card id="status">
-      <h3 slot='cardTitle'>status</h3>
+      <h3 slot='cardTitle'>Status</h3>
       <div slot='cardContent'>
         <p><em>2018&mdash;present</em>I’m the lead designer for Status chat and browser teams. Status is an open source secure messaging platform that allows you to transact and interact with the Ethereum ecosystem. Together in small interdisciplinary swarms, we’ve created unique new ways for people to monetise their attention, enable community money, community law and through privacy, preserve culture.</p>
 				<div class="buttons">
@@ -50,7 +50,7 @@
     </Card>
 
     <Card id="aintu">
-      <h3 slot='cardTitle'>aintu</h3>
+      <h3 slot='cardTitle'>Aintu</h3>
       <div slot='cardContent'>
         <p><em>2017</em>The Aintu team hired me as a product design consultant whose responsibility was to improve the user experience of their digital products. To help this, I created and tested numerous prototypes, putting forward-thinking ideas into motion while iterating on the existing interface. I also helped nurture a culture of design thinking inside the team and helped other designers shape the visual language of the company.</p>
 				<div class="buttons">
@@ -71,7 +71,7 @@
     </Card>
 
     <Card id="opera">
-      <h3 slot='cardTitle'>opera</h3>
+      <h3 slot='cardTitle'>Opera</h3>
       <div slot='cardContent'>
         <p><em>2016&mdash;2017</em>I was the design lead on the redesign of Opera browser. Together in a team of designers and engineers we conceptualised and put in motion a redesign of the interface, focused on bringing mobile app experiences inside the desktop browser. This included lessons learned from previous well-received concepts like <a href="https://www.opera.com/computer/neon" target="_blank" title="Opera Neon"><span class="highlighter">Opera Neon</span></a>. We also gave the interface a fresh new look and laid the groundwork for its future expansion.</p>
 				<div class="buttons">
@@ -91,7 +91,7 @@
     </Card>
 
     <Card id="explain">
-      <h3 slot='cardTitle'>explain everything</h3>
+      <h3 slot='cardTitle'>Explain</br>Everything</h3>
       <div slot='cardContent'>
         <p><em>2015&mdash;2016</em>Explain Everything is an award-winning digital interactive whiteboard made for educators, students, and creators to communicate their ideas, teach and learn from others. For over a year I worked as a product designer on the team. Together we conceptualised, designed and communicated new groundbreaking features like real-time collaboration, apps for the iPhone and Apple TV and the introduction of Discover: a content sharing portal for all things made with Explain Everything.</p>
         <div class="buttons">
@@ -113,7 +113,7 @@
     </Card>
 
     <Card id="itondo">
-      <h3 slot='cardTitle'>itondo</h3>
+      <h3 slot='cardTitle'>Itondo</h3>
       <div slot='cardContent'>
         <p><em>2014&mdash;2015</em>Itondo is an app for discovering, buying and trying out art. It allows anyone to browse and buy from a curated selection of artworks from world-renowned artists and galleries and see how they’d look like in their space with the help of an AR powered Live Preview mode. I was the lead designer on the startup, employed by its founders to shape the brand, visual language and the entire end-to-end user experience of the product.</p>
         <div class="buttons">
