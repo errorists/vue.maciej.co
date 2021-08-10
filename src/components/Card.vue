@@ -35,30 +35,16 @@ section {
     position: absolute; left: 5vw; right: 0; top: 0; bottom: 0;
     z-index: -1;
   }
-  &::after {
-    content: '1';
-    position: absolute;
-    left: 7%;
-    font: 3.25rem/0.95 $body;
-    font-weight: normal;
-    color: $text-third;
-  }
 }
 @media (prefers-color-scheme: dark) {
   section::before {
     background: linear-gradient(130deg, hsl(0,0%,10%), hsl(0,0%,4%));
-  }
-  section::after {
-    color: $text-third-dark;
   }
 }
 @media (max-width: 960px) {
   section::before {
     left: 0;
     border-radius: 0;
-  }
-  section::after {
-    display: none;
   }
 }
 </style>

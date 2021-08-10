@@ -177,24 +177,7 @@ export default {
 ul {
 	max-width: 20vw;
 }
-#kaala::after {
-  content: '1';
-}
-#status::after {
-  content: '2';
-}
-#aintu::after {
-  content: '3';
-}
-#opera::after {
-  content: '4';
-}
-#explain::after {
-  content: '5';
-}
-#itondo::after {
-  content: '6';
-}
+
 #explain .content h3 {
   min-width: 300px;
 }
