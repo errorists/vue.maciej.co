@@ -3,15 +3,15 @@
     <h3>About</h3>
     <div>
       <section>
-        <p>My name is Maciej, pronounced ‘much-yay’. I’m a designer, engineer, friend and musician making things on the Internet. He/Him</p>
+        <p>My name is Maciej, pronounced ‘much-yay’. I’m a designer, engineer, musician and friend making things on the Internet. He/Him</p>
         <figure><img src='../assets/p1.jpg' alt="Me" width="975" height="750"/></figure>
       </section>
       <section>
-        <p>I compose electronic music, skateboard, read and write graphic novels, enjoy art and enthuse over street fashion.</p>
+        <p>I compose electronic music, skateboard, read and write graphic novels, enjoy art and enthuse over fashion.</p>
         <figure><img src='../assets/p2.jpg' alt="Synths" width="1000" height="1500"/></figure>
       </section>
       <section>
-        <p>I’m a team player, my best work was done together with great people and companies. I’d like to thank you all, you know who you are.</p>
+        <p>My best work was done together with great people, teams and companies. I’d like to thank you all, you know who you are.</p>
         <figure><img src='../assets/p3.jpg' alt="Teamplay" width="975" height="750"/></figure>
       </section>
       <section>
@@ -20,8 +20,8 @@
       </section>
     </div>
     <aside>
-      <p><a href="mailto:hi@maciej.co" title="Maciej's mailbox"><span class="highlighter">hi@maciej.co</span></a> • <a href="https://read.cv/soso" target="_blank" title="Read.cv"><span class="highlighter">Read.cv</span></a> • <a href="https://twitter.com/spaceape" target="_blank" title="Twitter"><span class="highlighter">Twitter</span></a> • <a href="https://github.com/errorists" target="_blank" title="GitHub"><span class="highlighter">GitHub</span></a> • <a href="https://context.app/maciej" target="_blank" title="Context"><span class="highlighter">Context</span></a></p>
-      <p><em>©2021 Maciej Zadykowicz</em></p>
+      <p><a href="mailto:hi@maciej.co" title="Maciej's mailbox"><span class="highlighter">hi@maciej.co</span></a> • <a href="https://read.cv/soso" target="_blank" title="Read.cv"><span class="highlighter">Read.cv</span></a> • <a href="https://twitter.com/spaceape" target="_blank" title="Twitter"><span class="highlighter">Twitter</span></a> • <a href="https://github.com/errorists" target="_blank" title="GitHub"><span class="highlighter">GitHub</span></a> • <a href="https://eth.af/so-so" target="_blank" title="ENS username"><span class="highlighter">so-so.eth</span></a></p>
+      <p><em>©2022 Maciej Zadykowicz</em></p>
     </aside>
   </footer>
 </template>
